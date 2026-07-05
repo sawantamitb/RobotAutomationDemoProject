@@ -1,7 +1,10 @@
 *** Settings ***
 Documentation    Test Suite for validate the login here
 Library    SeleniumLibrary
+Library    OperatingSystem
 Default Tags    Positive
+Suite Setup    Prepare Screenshot Directory
+Test Setup    Open the URL with the login URL    ${URL}   ${BROWSER}
 Test Teardown    Close Browser
 
 # Resource
@@ -9,24 +12,32 @@ Test Teardown    Close Browser
 *** Variables ***
 ${INVALID_ERROR_MESSAGE}    xpath://li[normalize-space()='Authentication failed.']
 ${URL}        https://automationpractice.techwithjatin.com/
+${BROWSER}    Chrome
+${SIGN_OUT_LINK}    css:a[title='Log me out']
+${SCREENSHOT_DIR}    ${EXECDIR}${/}screenshot
 
 *** Test Cases ***
 Login user with valid credential
-    Open the URL with the login URL    Chrome
-    Fill Login Form    labisok230@hidevak.com    Test@123
+    Fill Login Form    labisok230@hidevak.com    Test@12311
     Validate Successful Login
 
 Login user with invalid credential
-    Open the URL with the login URL    Firefox
     Fill Login Form    labisok230@hidevak.com    Test@1234
     Validate Invalid Login
 
 *** Keywords ***
+Delete Old Screenshots
+    Run Keyword And Ignore Error    Remove Files    ${SCREENSHOT_DIR}${/}*.png
+
+Prepare Screenshot Directory
+    Create Directory    ${SCREENSHOT_DIR}
+    Set Screenshot Directory    ${SCREENSHOT_DIR}
+    Log To Console    Screenshot directory: ${SCREENSHOT_DIR}
+    Delete Old Screenshots
 
 Open the URL with the login URL
-    [Arguments]    ${browser}
-    Create Webdriver    ${browser}
-    Go To    https://automationpractice.techwithjatin.com/
+    [Arguments]     ${URL}    ${BROWSER}
+    Open Browser    ${URL}    ${BROWSER}
     Maximize Browser Window
     Click Link    xpath://a[normalize-space()='Sign in']
 
@@ -37,7 +48,7 @@ Fill Login Form
     Click Button  id:SubmitLogin
 
 Validate Successful Login
-    Element Should Be Visible    css:a[title='Log me out']
+    Wait Until Element Is Visible    ${SIGN_OUT_LINK}
     ${username}=    Get Text    css:a[title='View my customer account'] span
     Should Be Equal As Strings    ${username}    Amit Sawant
     Log To Console    User Name: ${username}

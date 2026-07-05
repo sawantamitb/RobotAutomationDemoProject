@@ -4,30 +4,121 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="526d38e9-7065-46e7-9f43-1220f5b9afd9" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/Robot_Automation_Demo_Project.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/testDemo1.robot" afterDir="false" />
+    <list default="true" id="526d38e9-7065-46e7-9f43-1220f5b9afd9" name="Changes" comment="Commit the project configuration changes">
+      <change afterPath="$PROJECT_DIR$/test/generic.robot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/resource.robot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/testDemo2.robot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/testDemo3.robot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/testDemo4.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/testDemo1.robot" beforeDir="false" afterPath="$PROJECT_DIR$/test/testDemo1.robot" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="ChangesViewManager">
+    <option name="groupingKeys">
+      <option value="directory" />
+      <option value="repository" />
+    </option>
+  </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="7" />
+    <option name="cachedIndexableFilesCount" value="40" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Robot Resource File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="main" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;sawantamitb&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/sawantamitb/RobotAutomationDemoProject.git&quot;,
+    &quot;accountId&quot;: &quot;63443325-c5b6-46a4-acc2-81fe4f8dab98&quot;
+  }
+}</component>
   <component name="McpProjectServerCommands">
     <commands />
     <urls />
+  </component>
+  <component name="NextEditCompletionFeaturesState">
+    <decayedCancelled>
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="1.4495414093144309E-94" />
+      <entry key="S2" value="4.014580248193194E-24" />
+      <entry key="S5" value="6.972268833313422E-10" />
+      <entry key="S10" value="4.394496009411711E-5" />
+      <entry key="S30" value="0.07321883558311561" />
+      <entry key="S60" value="0.5161138782574081" />
+      <entry key="M2" value="1.7704309079017702" />
+      <entry key="M5" value="5.99017831282735" />
+      <entry key="M10" value="11.535493236289868" />
+      <entry key="M15" value="15.6792986078508" />
+      <entry key="M30" value="30.041072461750137" />
+      <entry key="H1" value="89.97259703861171" />
+      <entry key="H2" value="227.85582407206263" />
+      <entry key="H4" value="405.674206275984" />
+      <entry key="D1" value="709.6045804933359" />
+      <entry key="W1" value="787.9111448302019" />
+    </decayedCancelled>
+    <decayedSelected>
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0" />
+      <entry key="S2" value="1.0" />
+      <entry key="S5" value="1.0" />
+      <entry key="S10" value="1.0000000004657237" />
+      <entry key="S30" value="1.0008858058450831" />
+      <entry key="S60" value="1.0384800392871565" />
+      <entry key="M2" value="1.2864367971589319" />
+      <entry key="M5" value="2.2681808358849405" />
+      <entry key="M10" value="3.4063279578104" />
+      <entry key="M15" value="4.075667428729977" />
+      <entry key="M30" value="5.2048478631337165" />
+      <entry key="H1" value="7.020989221924532" />
+      <entry key="H2" value="11.410814528120271" />
+      <entry key="H4" value="19.384370983725503" />
+      <entry key="D1" value="37.630239700326555" />
+      <entry key="W1" value="43.00881674457183" />
+    </decayedSelected>
+    <decayedShown>
+      <entry key="MS100" value="2.13337434476103E-12" />
+      <entry key="MS500" value="0.004632478513324013" />
+      <entry key="S2" value="0.2608875494509208" />
+      <entry key="S5" value="0.5842266204955583" />
+      <entry key="S10" value="0.7643906523071305" />
+      <entry key="S30" value="0.988046521145819" />
+      <entry key="S60" value="1.5083431229852708" />
+      <entry key="M2" value="3.0275022063353143" />
+      <entry key="M5" value="8.235485384768596" />
+      <entry key="M10" value="14.922979090755986" />
+      <entry key="M15" value="19.739216257780175" />
+      <entry key="M30" value="35.23508430623784" />
+      <entry key="H1" value="96.98588190587283" />
+      <entry key="H2" value="239.2601507729795" />
+      <entry key="H4" value="425.05293559880124" />
+      <entry key="D1" value="747.2329632785442" />
+      <entry key="W1" value="830.919657694999" />
+    </decayedShown>
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 5,
@@ -38,28 +129,107 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ModuleVcsDetector.initialDetectionPerformed": "true",
-    "Python.main.executor": "Debug",
-    "RunOnceActivity.MCP Project settings loaded": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
-    "codeWithMe.voiceChat.enabledByDefault": "false",
-    "com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1": "true",
-    "git-widget-placeholder": "master",
-    "junie.onboarding.icon.badge.shown": "true",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
-    "to.speed.mode.migration.done": "true",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JavaScript Debug.report.html.executor&quot;: &quot;Run&quot;,
+    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
+    &quot;Python.main.executor&quot;: &quot;Debug&quot;,
+    &quot;Robot.Login user with Password.executor&quot;: &quot;Run&quot;,
+    &quot;Robot.Run Test.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.typescript.service.memoryLimit.init&quot;: &quot;true&quot;,
+    &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
+    &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Amit_Tech/Education/Pycharm_Workspace/Selenium_Projects/Robot_Automation_Demo_Project/test&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;run.code.analysis.last.selected.profile&quot;: &quot;aDefault&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Amit_Tech\Education\Pycharm_Workspace\Selenium_Projects\Robot_Automation_Demo_Project\test" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Robot.Run Test">
+    <configuration name="report.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Robot_Automation_Demo_Project/test/report.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="Login user with Password" type="RobotRunConfiguration" factoryName="RobotRunConfiguration" temporary="true">
+      <module name="Robot_Automation_Demo_Project" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/.venv/Scripts/python.exe" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="false" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="robot.run" />
+      <option name="PARAMETERS" value="--test &quot;Robot_Automation_Demo_Project.test.testDemo1.Login user with Password&quot; ." />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="true" />
+      <option name="MODULE_MODE" value="true" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Run Test" type="RobotRunConfiguration" factoryName="RobotRunConfiguration" temporary="true">
+      <module name="Robot_Automation_Demo_Project" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="$PROJECT_DIR$/.venv/Scripts/python.exe" />
+      <option name="SDK_NAME" value="Python 3.14 (Robot_Automation_Demo_Project)" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="DEBUG_JUST_MY_CODE" value="false" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="RUN_TOOL" value="" />
+      <option name="SCRIPT_NAME" value="robot.run" />
+      <option name="PARAMETERS" value="--outputdir reports test/testDemo2.robot" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="true" />
+      <option name="MODULE_MODE" value="true" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="JavaScript Debug.report.html" />
+      <item itemvalue="Robot.Login user with Password" />
+      <item itemvalue="Robot.Run Test" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Robot.Run Test" />
+        <item itemvalue="JavaScript Debug.report.html" />
+        <item itemvalue="Robot.Login user with Password" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -75,12 +245,27 @@
       <option name="presentableId" value="Default" />
       <updated>1783239626510</updated>
       <workItem from="1783239627552" duration="1052000" />
-      <workItem from="1783242176122" duration="1345000" />
+      <workItem from="1783242176122" duration="1436000" />
+      <workItem from="1783243763497" duration="11091000" />
+      <workItem from="1783261195020" duration="13981000" />
     </task>
+    <task id="LOCAL-00001" summary="Commit the project configuration changes">
+      <option name="closed" value="true" />
+      <created>1783243572977</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1783243572977</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Commit the project configuration changes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Commit the project configuration changes" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -95,5 +280,7 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Robot_Automation_Demo_Project$main.coverage" NAME="main Coverage Results" MODIFIED="1783242074122" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Robot_Automation_Demo_Project$Run_Test.coverage" NAME="Run Test Coverage Results" MODIFIED="1783247031214" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Robot_Automation_Demo_Project$Login_user_with_Password.coverage" NAME="Login user with Password Coverage Results" MODIFIED="1783246416007" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>
