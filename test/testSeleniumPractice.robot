@@ -9,7 +9,7 @@ Suite Setup    Initial Setup
 Test Setup     Open The URL With The Login URL  ${URL}    ${BROWSER}
 Test Teardown  Close Browser
 Default Tags    Positive
-Resource    generic.robot
+Resource    resource/generic.robot
 #Resource
 
 *** Variables ***

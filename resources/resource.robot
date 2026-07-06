@@ -4,8 +4,7 @@ Documentation    Test Suite for validate the login here
 ...             The system specific keywords created here from our own 
 ...             domain specific language. They utilize keywords provided 
 ...              by the imported SeleniumLibrary.
-Library    SeleniumLibrary
-Library    OperatingSystem
+
 Suite Setup    Prepare Screenshot Directory
 Test Teardown    Close Browser
 

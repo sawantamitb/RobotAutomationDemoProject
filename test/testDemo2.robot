@@ -14,7 +14,7 @@ ${INVALID_ERROR_MESSAGE}    xpath://li[normalize-space()='Authentication failed.
 ${URL}        https://automationpractice.techwithjatin.com/
 ${BROWSER}    Chrome
 ${SIGN_OUT_LINK}    css:a[title='Log me out']
-${SCREENSHOT_DIR}    ${EXECDIR}${/}screenshot
+${SCREENSHOT_DIR}    ${CURDIR}/../screenshots
 
 *** Test Cases ***
 Login user with valid credential
@@ -30,7 +30,6 @@ Delete Old Screenshots
     Run Keyword And Ignore Error    Remove Files    ${SCREENSHOT_DIR}${/}*.png
 
 Prepare Screenshot Directory
-    Create Directory    ${SCREENSHOT_DIR}
     Set Screenshot Directory    ${SCREENSHOT_DIR}
     Log To Console    Screenshot directory: ${SCREENSHOT_DIR}
     Delete Old Screenshots

@@ -5,7 +5,8 @@ Library        OperatingSystem
 Library        Collections
 Library        String
 Default Tags    Positive
-Resource    resource.robot
+Resource     ../resources/resource.robot
+
 # Resource
 
 *** Variables ***

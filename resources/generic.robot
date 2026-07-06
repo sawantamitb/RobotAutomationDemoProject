@@ -11,7 +11,8 @@ ${BROWSER}                 Chrome
 ${USERNAME}                rahulshettyacademy
 ${PASSWORD}                Learning@830$3mK2
 ${INVALID_PASSWORD}        1earning@830$3mK2
-${SCREENSHOT_DIR}    ${EXECDIR}${/}screenshot
+${SCREENSHOT_DIR}          ${CURDIR}/../screenshots
+
 
 *** Keywords ***
 Initial Setup
@@ -19,7 +20,6 @@ Initial Setup
     Delete Old Screenshots
 
 Prepare Screenshot Directory
-    Create Directory    ${SCREENSHOT_DIR}
     Set Screenshot Directory    ${SCREENSHOT_DIR}
     Log To Console    Screenshot directory: ${SCREENSHOT_DIR}
     Delete Old Screenshots
