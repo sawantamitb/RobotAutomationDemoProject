@@ -4,15 +4,16 @@ Library        SeleniumLibrary
 Library        OperatingSystem
 Library        Collections
 Library        String
-Library        DataDriver      file=resource/data.csv
+Library        DataDriver      file=resource/data.csv   encoding=utf_8  dialect=unix
 
-Suite Setup    Initial Setup
-Test Setup     Open The URL With The Login URL  ${URL}    ${BROWSER}
-Test Teardown  Close Browser
+Suite Setup     Initial Setup
+Test Setup      Open The URL With The Login URL  ${URL}    ${BROWSER}
+Test Teardown   Close Browser
 Test Template   Validate Unsuccessful Login
 Default Tags    Positive
-Resource    generic.robot
-#Resource
+Resource        generic.robot
+#Resourcecls
+
 
 *** Variables ***
 ${ERROR_MESSAGE_LOGIN}     css:.alert-danger
