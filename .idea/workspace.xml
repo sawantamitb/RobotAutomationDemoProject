@@ -5,13 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="526d38e9-7065-46e7-9f43-1220f5b9afd9" name="Changes" comment="Commit the project configuration changes">
-      <change afterPath="$PROJECT_DIR$/test/generic.robot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/resource.robot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/testDemo2.robot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/testDemo3.robot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/testDemo4.robot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/resource/data.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/testDataDriven1.robot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/testDataDriven2.robot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/testSeleniumPractice.robot" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/testDemo1.robot" beforeDir="false" afterPath="$PROJECT_DIR$/test/testDemo1.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/generic.robot" beforeDir="false" afterPath="$PROJECT_DIR$/test/generic.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/testDemo3.robot" beforeDir="false" afterPath="$PROJECT_DIR$/test/testAuthentication.robot" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/testDemo4.robot" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -25,7 +26,7 @@
     </option>
   </component>
   <component name="EmbeddingIndexingInfo">
-    <option name="cachedIndexableFilesCount" value="40" />
+    <option name="cachedIndexableFilesCount" value="19" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -60,61 +61,61 @@
   </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="1.4495414093144309E-94" />
-      <entry key="S2" value="4.014580248193194E-24" />
-      <entry key="S5" value="6.972268833313422E-10" />
-      <entry key="S10" value="4.394496009411711E-5" />
-      <entry key="S30" value="0.07321883558311561" />
-      <entry key="S60" value="0.5161138782574081" />
-      <entry key="M2" value="1.7704309079017702" />
-      <entry key="M5" value="5.99017831282735" />
-      <entry key="M10" value="11.535493236289868" />
-      <entry key="M15" value="15.6792986078508" />
-      <entry key="M30" value="30.041072461750137" />
-      <entry key="H1" value="89.97259703861171" />
-      <entry key="H2" value="227.85582407206263" />
-      <entry key="H4" value="405.674206275984" />
-      <entry key="D1" value="709.6045804933359" />
-      <entry key="W1" value="787.9111448302019" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0000000000001728" />
+      <entry key="S2" value="1.0006447391787165" />
+      <entry key="S5" value="1.0533645404306622" />
+      <entry key="S10" value="1.2593471523351436" />
+      <entry key="S30" value="2.228982872150495" />
+      <entry key="S60" value="3.4803094819174873" />
+      <entry key="M2" value="5.09003042295588" />
+      <entry key="M5" value="8.715310255066285" />
+      <entry key="M10" value="15.761756982234942" />
+      <entry key="M15" value="21.722681560962183" />
+      <entry key="M30" value="32.489835313017835" />
+      <entry key="H1" value="42.76838639151864" />
+      <entry key="H2" value="54.35609145240115" />
+      <entry key="H4" value="96.10263097154753" />
+      <entry key="D1" value="543.0939151048684" />
+      <entry key="W1" value="816.0888521829269" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="1.0" />
-      <entry key="MS500" value="1.0" />
-      <entry key="S2" value="1.0" />
-      <entry key="S5" value="1.0" />
-      <entry key="S10" value="1.0000000004657237" />
-      <entry key="S30" value="1.0008858058450831" />
-      <entry key="S60" value="1.0384800392871565" />
-      <entry key="M2" value="1.2864367971589319" />
-      <entry key="M5" value="2.2681808358849405" />
-      <entry key="M10" value="3.4063279578104" />
-      <entry key="M15" value="4.075667428729977" />
-      <entry key="M30" value="5.2048478631337165" />
-      <entry key="H1" value="7.020989221924532" />
-      <entry key="H2" value="11.410814528120271" />
-      <entry key="H4" value="19.384370983725503" />
-      <entry key="D1" value="37.630239700326555" />
-      <entry key="W1" value="43.00881674457183" />
+      <entry key="MS100" value="0.0" />
+      <entry key="MS500" value="3.958701730873354E-84" />
+      <entry key="S2" value="1.7126105973722697E-21" />
+      <entry key="S5" value="7.0377899577496185E-9" />
+      <entry key="S10" value="1.1859170513261342E-4" />
+      <entry key="S30" value="0.08847538154486193" />
+      <entry key="S60" value="0.49834398973967214" />
+      <entry key="M2" value="1.2109130920518751" />
+      <entry key="M5" value="2.114901703811194" />
+      <entry key="M10" value="2.752418968626994" />
+      <entry key="M15" value="3.1631164859863516" />
+      <entry key="M30" value="4.026386480153616" />
+      <entry key="H1" value="5.95554540629854" />
+      <entry key="H2" value="9.575662204675472" />
+      <entry key="H4" value="14.990214541100874" />
+      <entry key="D1" value="43.65845605110774" />
+      <entry key="W1" value="60.37343598116247" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="2.13337434476103E-12" />
-      <entry key="MS500" value="0.004632478513324013" />
-      <entry key="S2" value="0.2608875494509208" />
-      <entry key="S5" value="0.5842266204955583" />
-      <entry key="S10" value="0.7643906523071305" />
-      <entry key="S30" value="0.988046521145819" />
-      <entry key="S60" value="1.5083431229852708" />
-      <entry key="M2" value="3.0275022063353143" />
-      <entry key="M5" value="8.235485384768596" />
-      <entry key="M10" value="14.922979090755986" />
-      <entry key="M15" value="19.739216257780175" />
-      <entry key="M30" value="35.23508430623784" />
-      <entry key="H1" value="96.98588190587283" />
-      <entry key="H2" value="239.2601507729795" />
-      <entry key="H4" value="425.05293559880124" />
-      <entry key="D1" value="747.2329632785442" />
-      <entry key="W1" value="830.919657694999" />
+      <entry key="MS100" value="0.9659363289248456" />
+      <entry key="MS500" value="0.9930924954371902" />
+      <entry key="S2" value="0.998895523239312" />
+      <entry key="S5" value="1.051943472976637" />
+      <entry key="S10" value="1.2524919750541839" />
+      <entry key="S30" value="2.273234930460603" />
+      <entry key="S60" value="3.9163842264900945" />
+      <entry key="M2" value="6.243869527164428" />
+      <entry key="M5" value="10.796026939350861" />
+      <entry key="M10" value="18.493461231252784" />
+      <entry key="M15" value="24.87045988450102" />
+      <entry key="M30" value="36.507126035129744" />
+      <entry key="H1" value="48.71831549954841" />
+      <entry key="H2" value="63.928088220836386" />
+      <entry key="H4" value="111.09013382089049" />
+      <entry key="D1" value="586.7506715330086" />
+      <entry key="W1" value="876.4619323171155" />
     </decayedShown>
   </component>
   <component name="ProblemsViewState">
@@ -135,7 +136,7 @@
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
     &quot;Python.main.executor&quot;: &quot;Debug&quot;,
     &quot;Robot.Login user with Password.executor&quot;: &quot;Run&quot;,
-    &quot;Robot.Run Test.executor&quot;: &quot;Run&quot;,
+    &quot;Robot.Run Test.executor&quot;: &quot;Debug&quot;,
     &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
@@ -144,6 +145,7 @@
     &quot;codeWithMe.voiceChat.enabledByDefault&quot;: &quot;false&quot;,
     &quot;com.intellij.ml.llm.matterhorn.ej.ui.settings.DefaultModelSelectionForGA.v1&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;git.auto.fetch.suggestion.counter&quot;: &quot;1&quot;,
     &quot;junie.onboarding.icon.badge.shown&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Amit_Tech/Education/Pycharm_Workspace/Selenium_Projects/Robot_Automation_Demo_Project/test&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
@@ -152,7 +154,7 @@
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;run.code.analysis.last.selected.profile&quot;: &quot;aDefault&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;,
     &quot;to.speed.mode.migration.done&quot;: &quot;true&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
@@ -247,7 +249,8 @@
       <workItem from="1783239627552" duration="1052000" />
       <workItem from="1783242176122" duration="1436000" />
       <workItem from="1783243763497" duration="11091000" />
-      <workItem from="1783261195020" duration="13981000" />
+      <workItem from="1783261195020" duration="24608000" />
+      <workItem from="1783328517504" duration="1061000" />
     </task>
     <task id="LOCAL-00001" summary="Commit the project configuration changes">
       <option name="closed" value="true" />
@@ -257,7 +260,15 @@
       <option name="project" value="LOCAL" />
       <updated>1783243572977</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Commit the project configuration changes">
+      <option name="closed" value="true" />
+      <created>1783278269316</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1783278269316</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -280,7 +291,7 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Robot_Automation_Demo_Project$main.coverage" NAME="main Coverage Results" MODIFIED="1783242074122" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Robot_Automation_Demo_Project$Run_Test.coverage" NAME="Run Test Coverage Results" MODIFIED="1783247031214" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Robot_Automation_Demo_Project$Run_Test.coverage" NAME="Run Test Coverage Results" MODIFIED="1783318416063" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Robot_Automation_Demo_Project$Login_user_with_Password.coverage" NAME="Login user with Password Coverage Results" MODIFIED="1783246416007" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

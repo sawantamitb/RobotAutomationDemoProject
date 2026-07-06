@@ -1,7 +1,9 @@
 *** Settings ***
 Documentation    Test Suite for validate the login here
-Library    SeleniumLibrary
-Library    OperatingSystem
+Library        SeleniumLibrary
+Library        OperatingSystem
+Library        Collections
+Library        String
 Default Tags    Positive
 Resource    resource.robot
 # Resource

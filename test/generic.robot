@@ -6,9 +6,8 @@ Documentation    Test Suite for validate the login here
 ...              by the imported SeleniumLibrary.
 Library        SeleniumLibrary
 Library        OperatingSystem
-Suite Setup    Initial Setup
-Test Setup      Open The URL With The Login URL  ${URL}    ${BROWSER}
-Test Teardown  Close Browser
+Library        Collections
+Library        String
 
 *** Variables ***
 ${URL}                     https://rahulshettyacademy.com/loginpagePractise/
@@ -16,6 +15,7 @@ ${BROWSER}                 Chrome
 ${USERNAME}                rahulshettyacademy
 ${PASSWORD}                Learning@830$3mK2
 ${INVALID_PASSWORD}        1earning@830$3mK2
+${SCREENSHOT_DIR}    ${EXECDIR}${/}screenshot
 
 *** Keywords ***
 Initial Setup
@@ -33,7 +33,16 @@ Delete Old Screenshots
 
 Open the URL with the login URL
     [Arguments]     ${URL}    ${BROWSER}
-    Open Browser    ${URL}    ${BROWSER}
+    ${options}=    Evaluate    sys.modules['selenium.webdriver'].ChromeOptions()    sys, selenium.webdriver
+    ${prefs}=    Create Dictionary
+    ...    credentials_enable_service=${False}
+    ...    profile.password_manager_enabled=${False}
+    ...    profile.password_manager_leak_detection=${False}
+
+    Call Method    ${options}    add_experimental_option    prefs    ${prefs}
+
+    Create Webdriver    ${BROWSER}    options=${options}
+    Go To    ${URL}
     Maximize Browser Window
 
 Close Browser session
