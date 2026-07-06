@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.4.2 (Python 3.14.3 on win32)" generated="2026-07-06T14:49:46.017427" rpa="false" schemaversion="5">
+<suite id="s1" name="testDataDriven2" source="C:\Amit_Tech\Education\Pycharm_Workspace\Selenium_Projects\Robot_Automation_Demo_Project\test\testDataDriven2.robot">
+<kw name="Initial Setup" owner="generic" type="SETUP">
+<kw name="Prepare Screenshot Directory" owner="generic">
+<kw name="Create Directory" owner="OperatingSystem">
+<msg time="2026-07-06T14:49:46.601638" level="INFO" html="true">Directory '&lt;a href="file://C:\Amit_Tech\Education\Pycharm_Workspace\Selenium_Projects\Robot_Automation_Demo_Project\test\screenshot"&gt;C:\Amit_Tech\Education\Pycharm_Workspace\Selenium_Projects\Robot_Automation_Demo_Project\test\screenshot&lt;/a&gt;' already exists.</msg>
+<arg>${SCREENSHOT_DIR}</arg>
+<doc>Creates the specified directory.</doc>
+<status status="PASS" start="2026-07-06T14:49:46.601392" elapsed="0.000323"/>
+</kw>
+<kw name="Set Screenshot Directory" owner="SeleniumLibrary">
+<arg>${SCREENSHOT_DIR}</arg>
+<doc>Sets the directory for captured screenshots.</doc>
+<status status="PASS" start="2026-07-06T14:49:46.601874" elapsed="0.000257"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Screenshot directory: ${SCREENSHOT_DIR}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2026-07-06T14:49:46.602258" elapsed="0.000479"/>
+</kw>
+<kw name="Delete Old Screenshots" owner="generic">
+<kw name="Run Keyword And Ignore Error" owner="BuiltIn">
+<kw name="Remove Files" owner="OperatingSystem">
+<msg time="2026-07-06T14:49:46.604052" level="INFO" html="true">File '&lt;a href="file://C:\Amit_Tech\Education\Pycharm_Workspace\Selenium_Projects\Robot_Automation_Demo_Project\test\screenshot\*.png"&gt;C:\Amit_Tech\Education\Pycharm_Workspace\Selenium_Projects\Robot_Automation_Demo_Project\test\screenshot\*.png&lt;/a&gt;' does not exist.</msg>
+<arg>${SCREENSHOT_DIR}${/}*.png</arg>
+<doc>Uses `Remove File` to remove multiple files one-by-one.</doc>
+<status status="PASS" start="2026-07-06T14:49:46.603486" elapsed="0.000650"/>
+</kw>
+<arg>Remove Files</arg>
+<arg>${SCREENSHOT_DIR}${/}*.png</arg>
+<doc>Runs the given keyword with the given arguments and ignores possible error.</doc>
+<status status="PASS" start="2026-07-06T14:49:46.603168" elapsed="0.001287"/>
+</kw>
+<status status="PASS" start="2026-07-06T14:49:46.602987" elapsed="0.001615"/>
+</kw>
+<status status="PASS" start="2026-07-06T14:49:46.600690" elapsed="0.004103"/>
+</kw>
+<kw name="Delete Old Screenshots" owner="generic">
+<kw name="Run Keyword And Ignore Error" owner="BuiltIn">
+<kw name="Remove Files" owner="OperatingSystem">
+<msg time="2026-07-06T14:49:46.605861" level="INFO" html="true">File '&lt;a href="file://C:\Amit_Tech\Education\Pycharm_Workspace\Selenium_Projects\Robot_Automation_Demo_Project\test\screenshot\*.png"&gt;C:\Amit_Tech\Education\Pycharm_Workspace\Selenium_Projects\Robot_Automation_Demo_Project\test\screenshot\*.png&lt;/a&gt;' does not exist.</msg>
+<arg>${SCREENSHOT_DIR}${/}*.png</arg>
+<doc>Uses `Remove File` to remove multiple files one-by-one.</doc>
+<status status="PASS" start="2026-07-06T14:49:46.605434" elapsed="0.000552"/>
+</kw>
+<arg>Remove Files</arg>
+<arg>${SCREENSHOT_DIR}${/}*.png</arg>
+<doc>Runs the given keyword with the given arguments and ignores possible error.</doc>
+<status status="PASS" start="2026-07-06T14:49:46.605139" elapsed="0.000928"/>
+</kw>
+<status status="PASS" start="2026-07-06T14:49:46.604951" elapsed="0.001176"/>
+</kw>
+<status status="PASS" start="2026-07-06T14:49:46.600374" elapsed="0.005796"/>
+</kw>
+<test id="s1-t1" name="Login with user rahulshettyacademy and password Learning@830$3mK2" line="22">
+<tag>Positive</tag>
+<status status="FAIL" start="2026-07-06T14:49:46.606302" elapsed="0.001232">Test cannot be empty.</status>
+</test>
+<doc>Test Suite for validate the login here</doc>
+<status status="FAIL" start="2026-07-06T14:49:46.018982" elapsed="0.589625"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="0" fail="1" skip="0">Positive</stat>
+</tag>
+<suite>
+<stat name="testDataDriven2" id="s1" pass="0" fail="1" skip="0">testDataDriven2</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2026-07-06T14:49:46.596490" level="ERROR">[ DataDriver ] Error in robot file:
+  File "C:\Amit_Tech\Education\Pycharm_Workspace\Selenium_Projects\Robot_Automation_Demo_Project\test\testDataDriven2.robot", line 0</msg>
+<msg time="2026-07-06T14:49:46.596735" level="ERROR">In source file:
+  File "resource/data.csv", line 0</msg>
+<msg time="2026-07-06T14:49:46.599479" level="ERROR">Calling method '_start_suite' of listener 'DataDriver' failed: ValueError: Unassigned requiered argument detected: ${username}.</msg>
+</errors>
+</robot>

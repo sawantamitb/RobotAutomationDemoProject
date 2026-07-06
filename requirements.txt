@@ -1,0 +1,4 @@
+robotframework==7.4.2
+robotframework-seleniumlibrary==6.9.0
+robotframework-datadriver==1.11.2
+selenium==4.45.0
