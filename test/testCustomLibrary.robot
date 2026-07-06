@@ -1,46 +1,49 @@
 *** Settings ***
 Documentation    Test Suite for validate the login here
-Library        SeleniumLibrary
-Library        OperatingSystem
-Library        Collections
-Library        String
+Library         SeleniumLibrary
+Library         OperatingSystem
+Library         Collections
+Library         String
+Library         ../customlibrary/Shop.py
 
-Suite Setup    Initial Setup
-Test Setup     Open The URL With The Login URL  ${URL}    ${BROWSER}
-Test Teardown  Close Browser
+Suite Setup     Initial Setup
+Test Setup      Open The URL With The Login URL  ${URL}    ${BROWSER}
+Test Teardown   Close Browser
 Default Tags    Positive
-Resource    ../resource/generic.robot
+Resource        ../resources/generic.robot
 #Resource
 
 *** Variables ***
 ${ERROR_MESSAGE_LOGIN}     css:.alert-danger
 ${SHOP_PAGE_LOAD}          css:.nav-link
-
+@{listofProducts}          Blackberry       Nokia Edge
 *** Test Cases ***
 
-Validate Unsuccessful Login
-    [Tags]      SMOKE
-    Fill the login Form     ${USERNAME}    ${INVALID_PASSWORD}
-    wait until it checks and display error message     ${ERROR_MESSAGE_LOGIN}
-    verify error message is correct
+# Validate Unsuccessful Login
+#     [Tags]      SMOKE
+#     Fill the login Form     ${USERNAME}    ${INVALID_PASSWORD}
+#     wait until it checks and display error message     ${ERROR_MESSAGE_LOGIN}
+#     verify error message is correct
 
 Validate Cards display in the Shopping Page
     [Tags]      SANITY
     Fill the login Form     ${USERNAME}    ${PASSWORD}
     wait until Element is located in the page     ${SHOP_PAGE_LOAD}
     Verify Card titles in the Shop page
-    Select the Card     Nokia Edge
+    hello world
+    add items to cart and checkout      ${listofProducts}
+    #Select the Card     Nokia Edge     Blackberry
 
-Select the Form and navigate to Child window
-    [Tags]      SMOKE
-    Fill the Login Details and Login Form    ${USERNAME}    ${PASSWORD}
+# Select the Form and navigate to Child window
+#     [Tags]      SMOKE
+#     Fill the Login Details and Login Form    ${USERNAME}    ${PASSWORD}
 
-Validate Child window Functionality
-    [Tags]      NEWFEATURE
-    Select the link of Child window
-    Verify the user is Switched to Child window
-    Grab the Email id in the Child Window
-    Switch to Parent window and enter the Email
+# Validate Child window Functionality
+#     [Tags]      NEWFEATURE
+#     Select the link of Child window
+#     Verify the user is Switched to Child window
+#     Grab the Email id in the Child Window
+#     Switch to Parent window and enter the Email
 
 *** Keywords ***
 

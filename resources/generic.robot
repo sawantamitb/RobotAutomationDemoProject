@@ -13,7 +13,6 @@ ${PASSWORD}                Learning@830$3mK2
 ${INVALID_PASSWORD}        1earning@830$3mK2
 ${SCREENSHOT_DIR}          ${CURDIR}/../screenshots
 
-
 *** Keywords ***
 Initial Setup
     Prepare Screenshot Directory
