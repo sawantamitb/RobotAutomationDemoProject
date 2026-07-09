@@ -1,0 +1,18 @@
+2026-07-09 19:48:04.273003 ==============================================================================
+2026-07-09 19:48:04.312804 Test
+2026-07-09 19:48:04.312939 ==============================================================================
+2026-07-09 19:48:04.677762 Test.testDataCSVRead :: Test Suite for validate the login here
+2026-07-09 19:48:04.707225 ==============================================================================
+2026-07-09 19:48:04.707263 Screenshot directory: C:\Amit_Tech\Education\VisualStudio_Workspace\Robot_Automation_Projects\RobotAutomationDemo\RobotAutomationDemoProject\pages/../screenshots
+2026-07-09 19:48:22.520601 Login with user 1234 and password 4321                                | PASS |
+2026-07-09 19:48:22.540590 ------------------------------------------------------------------------------
+2026-07-09 19:48:42.870299 Login with user rahulshettyacademy and password Learning@830$3mK2     | FAIL |
+2026-07-09 19:48:42.893218 Element 'css:.alert-danger' not visible after 5 seconds.
+2026-07-09 19:48:42.893271 ------------------------------------------------------------------------------
+2026-07-09 19:48:42.893306 Test.testDataCSVRead :: Test Suite for validate the login here        | FAIL |
+2026-07-09 19:48:42.895259 2 tests, 1 passed, 1 failed
+2026-07-09 19:48:42.895335 ==============================================================================
+2026-07-09 19:48:42.895379 Test                                                                  | FAIL |
+2026-07-09 19:48:42.896431 2 tests, 1 passed, 1 failed
+2026-07-09 19:48:42.896642 ==============================================================================
+2026-07-09 19:48:42.896868 Output:  C:\Amit_Tech\Education\VisualStudio_Workspace\Robot_Automation_Projects\RobotAutomationDemo\RobotAutomationDemoProject\results\pabot_results\17\output.xml

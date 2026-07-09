@@ -4,8 +4,6 @@ Library    SeleniumLibrary
 Default Tags    Positive
 Test Teardown    Close Browser
 
-# Resource
-
 *** Variables ***
 ${INVALID_ERROR_MESSAGE}    xpath://li[normalize-space()='Authentication failed.']
 ${URL}        https://automationpractice.techwithjatin.com/

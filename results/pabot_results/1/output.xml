@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.4.2 (Python 3.14.3 on win32)" generated="2026-07-09T19:46:16.449546" rpa="false" schemaversion="5">
+<suite id="s1" name="Test" source="C:\Amit_Tech\Education\VisualStudio_Workspace\Robot_Automation_Projects\RobotAutomationDemo\RobotAutomationDemoProject\test">
+<suite id="s1-s1" name="testAuthentication" source="C:\Amit_Tech\Education\VisualStudio_Workspace\Robot_Automation_Projects\RobotAutomationDemo\RobotAutomationDemoProject\test\testAuthentication.robot">
+<test id="s1-s1-t1" name="Login user with invalid credential" line="24">
+<kw name="Open the URL with the login URL" type="SETUP">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2026-07-09T19:46:17.012408" level="INFO">Opening browser 'firefox' to base url 'https://automationpractice.techwithjatin.com/'.</msg>
+<arg>${URL}</arg>
+<arg>${BROWSER}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2026-07-09T19:46:17.011344" elapsed="10.708551"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2026-07-09T19:46:27.720234" elapsed="0.429008"/>
+</kw>
+<kw name="Click Link" owner="SeleniumLibrary">
+<msg time="2026-07-09T19:46:28.150234" level="INFO">Clicking link 'xpath://a[normalize-space()='Sign in']'.</msg>
+<arg>xpath://a[normalize-space()='Sign in']</arg>
+<doc>Clicks a link identified by ``locator``.</doc>
+<status status="PASS" start="2026-07-09T19:46:28.149566" elapsed="0.686739"/>
+</kw>
+<arg>${URL}</arg>
+<arg>${BROWSER}</arg>
+<status status="PASS" start="2026-07-09T19:46:17.010075" elapsed="11.826422"/>
+</kw>
+<kw name="Fill Login Form">
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-07-09T19:46:28.838104" level="INFO">Typing text 'labisok230@hidevak.com' into text field 'id:email'.</msg>
+<arg>id:email</arg>
+<arg>${email}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-07-09T19:46:28.837406" elapsed="0.068148"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-07-09T19:46:28.906351" level="INFO">Typing text 'Test@1234' into text field 'id:passwd'.</msg>
+<arg>id:passwd</arg>
+<arg>${password}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-07-09T19:46:28.905880" elapsed="0.125983"/>
+</kw>
+<kw name="Click Button" owner="SeleniumLibrary">
+<msg time="2026-07-09T19:46:29.032478" level="INFO">Clicking button 'id:SubmitLogin'.</msg>
+<arg>id:SubmitLogin</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="PASS" start="2026-07-09T19:46:29.032146" elapsed="0.264860"/>
+</kw>
+<arg>labisok230@hidevak.com</arg>
+<arg>Test@1234</arg>
+<status status="PASS" start="2026-07-09T19:46:28.836869" elapsed="0.460339"/>
+</kw>
+<kw name="Validate Invalid Login">
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>${INVALID_ERROR_MESSAGE}</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2026-07-09T19:46:29.297967" elapsed="0.023156"/>
+</kw>
+<kw name="Get Text" owner="SeleniumLibrary">
+<msg time="2026-07-09T19:46:29.339087" level="INFO">${error} = Authentication failed.</msg>
+<var>${error}</var>
+<arg>${INVALID_ERROR_MESSAGE}</arg>
+<doc>Returns the text value of the element identified by ``locator``.</doc>
+<status status="PASS" start="2026-07-09T19:46:29.321630" elapsed="0.017540"/>
+</kw>
+<kw name="Should Be Equal As Strings" owner="BuiltIn">
+<arg>${error}</arg>
+<arg>Authentication failed.</arg>
+<doc>Fails if objects are unequal after converting them to strings.</doc>
+<status status="PASS" start="2026-07-09T19:46:29.339508" elapsed="0.000640"/>
+</kw>
+<kw name="Element Text Should Be" owner="SeleniumLibrary">
+<msg time="2026-07-09T19:46:29.344499" level="INFO">Verifying element 'xpath://li[normalize-space()='Authentication failed.']' contains exact text 'Authentication failed.'.</msg>
+<arg>${INVALID_ERROR_MESSAGE}</arg>
+<arg>Authentication failed.</arg>
+<doc>Verifies that element ``locator`` contains exact the text ``expected``.</doc>
+<status status="PASS" start="2026-07-09T19:46:29.340418" elapsed="0.018499"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Error: ${error}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2026-07-09T19:46:29.359185" elapsed="0.000590"/>
+</kw>
+<status status="PASS" start="2026-07-09T19:46:29.297547" elapsed="0.062380"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary" type="TEARDOWN">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2026-07-09T19:46:29.360239" elapsed="4.284221"/>
+</kw>
+<tag>Positive</tag>
+<status status="PASS" start="2026-07-09T19:46:17.009031" elapsed="16.635692"/>
+</test>
+<doc>Test Suite for validate the login here</doc>
+<status status="PASS" start="2026-07-09T19:46:16.496288" elapsed="17.149355"/>
+</suite>
+<status status="PASS" start="2026-07-09T19:46:16.451776" elapsed="17.194756"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="1" fail="0" skip="0">Positive</stat>
+</tag>
+<suite>
+<stat name="Test" id="s1" pass="1" fail="0" skip="0">Test</stat>
+<stat name="testAuthentication" id="s1-s1" pass="1" fail="0" skip="0">Test.testAuthentication</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2026-07-09T19:46:17.007557" level="ERROR">Error in file 'C:\Amit_Tech\Education\VisualStudio_Workspace\Robot_Automation_Projects\RobotAutomationDemo\RobotAutomationDemoProject\resources\resource.robot' on line 8: Setting 'Suite Setup' is not allowed in resource file.</msg>
+<msg time="2026-07-09T19:46:17.007683" level="ERROR">Error in file 'C:\Amit_Tech\Education\VisualStudio_Workspace\Robot_Automation_Projects\RobotAutomationDemo\RobotAutomationDemoProject\resources\resource.robot' on line 9: Setting 'Test Teardown' is not allowed in resource file.</msg>
+</errors>
+</robot>

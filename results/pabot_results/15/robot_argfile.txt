@@ -1,0 +1,17 @@
+--test Test.testWindowHandles.Validate Child window Functionality
+--variable BROWSER:firefox
+--variable CALLER_ID:b50ed0cca14f4fdcb4e3ce325917da82
+--variable PABOTLIBURI:127.0.0.1:8270
+--variable PABOTEXECUTIONPOOLID:1
+--variable PABOTISLASTEXECUTIONINPOOL:0
+--variable PABOTNUMBEROFPROCESSES:2
+--variable PABOTQUEUEINDEX:15
+--variable PABOTLASTLEVEL:
+--outputdir results\pabot_results\15
+--output output.xml
+--log NONE
+--report NONE
+--xunit NONE
+--consolecolors off
+--consolemarkers off
+test/

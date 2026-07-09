@@ -1,0 +1,17 @@
+--test Test.testDataDriven.Invalid password
+--variable BROWSER:firefox
+--variable CALLER_ID:02468c8424f74e49b7e8b4636bdca447
+--variable PABOTLIBURI:127.0.0.1:8270
+--variable PABOTEXECUTIONPOOLID:1
+--variable PABOTISLASTEXECUTIONINPOOL:0
+--variable PABOTNUMBEROFPROCESSES:2
+--variable PABOTQUEUEINDEX:5
+--variable PABOTLASTLEVEL:Test.testDataDriven.Invalid password
+--outputdir results\pabot_results\5
+--output output.xml
+--log NONE
+--report NONE
+--xunit NONE
+--consolecolors off
+--consolemarkers off
+test/

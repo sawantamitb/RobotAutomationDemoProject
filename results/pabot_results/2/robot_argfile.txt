@@ -1,0 +1,17 @@
+--test Test.testCustomLibrary.Validate Cards display in the Shopping Page
+--variable BROWSER:firefox
+--variable CALLER_ID:ba4f4ec61efa49a2855afc16a28e5974
+--variable PABOTLIBURI:127.0.0.1:8270
+--variable PABOTEXECUTIONPOOLID:0
+--variable PABOTISLASTEXECUTIONINPOOL:0
+--variable PABOTNUMBEROFPROCESSES:2
+--variable PABOTQUEUEINDEX:2
+--variable PABOTLASTLEVEL:Test.testCustomLibrary
+--outputdir results\pabot_results\2
+--output output.xml
+--log NONE
+--report NONE
+--xunit NONE
+--consolecolors off
+--consolemarkers off
+test/

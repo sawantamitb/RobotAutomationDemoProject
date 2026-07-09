@@ -3,7 +3,7 @@ Documentation    Test Suite for validate the login here
 Library    SeleniumLibrary
 Library    OperatingSystem
 Default Tags    Positive
-Suite Setup    Prepare Screenshot Directory
+Suite Setup    Initial Setup
 Test Setup    Open the URL with the login URL    ${URL}   ${BROWSER}
 Test Teardown    Close Browser
 
@@ -26,13 +26,17 @@ Login user with invalid credential
     Validate Invalid Login
 
 *** Keywords ***
-Delete Old Screenshots
-    Run Keyword And Ignore Error    Remove Files    ${SCREENSHOT_DIR}${/}*.png
+Initial Setup
+    Prepare Screenshot Directory
+    Delete Old Screenshots
 
 Prepare Screenshot Directory
     Set Screenshot Directory    ${SCREENSHOT_DIR}
     Log To Console    Screenshot directory: ${SCREENSHOT_DIR}
     Delete Old Screenshots
+
+Delete Old Screenshots
+    Run Keyword And Ignore Error    Remove Files    ${SCREENSHOT_DIR}${/}*.png
 
 Open the URL with the login URL
     [Arguments]     ${URL}    ${BROWSER}

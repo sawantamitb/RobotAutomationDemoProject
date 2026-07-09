@@ -6,33 +6,42 @@ Library        Collections
 Library        String
 Default Tags    Positive
 Resource     ../resources/resource.robot
-
+Test Setup     Open the URL with the login URL  ${URL}    ${BROWSER}
+Test Teardown  Close Browser
 # Resource
 
 *** Variables ***
 ${INVALID_ERROR_MESSAGE}    xpath://li[normalize-space()='Authentication failed.']
 ${SIGN_OUT_LINK}    css:a[title='Log me out']
+${SCREENSHOT_DIR}    ${CURDIR}/../screenshots
 
 *** Test Cases ***
 Login user with valid credential
-    Open the URL with the login URL    ${URL}    ${BROWSER}
+    #Open the URL with the login URL    ${URL}    ${BROWSER}
     Fill Login Form    labisok230@hidevak.com    Test@123
     Validate Successful Login
 
 Login user with invalid credential
-    Open the URL with the login URL    ${URL}    ${BROWSER}
+    #Open the URL with the login URL    ${URL}    ${BROWSER}
     Fill Login Form    labisok230@hidevak.com    Test@1234
     Validate Invalid Login
 
 *** Keywords ***
-Delete Old Screenshots
-    Run Keyword And Ignore Error    Remove Files    ${SCREENSHOT_DIR}${/}*.png
+Initial Setup
+    Prepare Screenshot Directory
+    Delete Old Screenshots
 
 Prepare Screenshot Directory
-    Create Directory    ${SCREENSHOT_DIR}
     Set Screenshot Directory    ${SCREENSHOT_DIR}
     Log To Console    Screenshot directory: ${SCREENSHOT_DIR}
     Delete Old Screenshots
+
+Delete Old Screenshots
+    Run Keyword And Ignore Error    Remove Files    ${SCREENSHOT_DIR}${/}*.png
+
+Close Browser session
+    Close Browser
+
 
 Open the URL with the login URL
     [Arguments]     ${URL}    ${BROWSER}

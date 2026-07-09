@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.4.2 (Python 3.14.3 on win32)" generated="2026-07-09T19:49:51.250735" rpa="false" schemaversion="5">
+<suite id="s1" name="Test" source="C:\Amit_Tech\Education\VisualStudio_Workspace\Robot_Automation_Projects\RobotAutomationDemo\RobotAutomationDemoProject\test">
+<suite id="s1-s1" name="testSeleniumPractice" source="C:\Amit_Tech\Education\VisualStudio_Workspace\Robot_Automation_Projects\RobotAutomationDemo\RobotAutomationDemoProject\test\testSeleniumPractice.robot">
+<doc>Test Suite for validate the login here</doc>
+<status status="SKIP" start="2026-07-09T19:49:51.306159" elapsed="0.593734"/>
+</suite>
+<status status="SKIP" start="2026-07-09T19:49:51.253224" elapsed="0.647480"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Test" id="s1" pass="0" fail="0" skip="0">Test</stat>
+<stat name="testSeleniumPractice" id="s1-s1" pass="0" fail="0" skip="0">Test.testSeleniumPractice</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

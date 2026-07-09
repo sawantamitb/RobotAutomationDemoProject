@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.4.2 (Python 3.14.3 on win32)" generated="2026-07-09T19:47:09.726684" rpa="false" schemaversion="5">
+<suite id="s1" name="Test" source="C:\Amit_Tech\Education\VisualStudio_Workspace\Robot_Automation_Projects\RobotAutomationDemo\RobotAutomationDemoProject\test">
+<suite id="s1-s1" name="testDemo1" source="C:\Amit_Tech\Education\VisualStudio_Workspace\Robot_Automation_Projects\RobotAutomationDemo\RobotAutomationDemoProject\test\testDemo1.robot">
+<test id="s1-s1-t1" name="Login user with valid credential" line="12">
+<kw name="Open the URL with the login URL">
+<kw name="Create Webdriver" owner="SeleniumLibrary">
+<msg time="2026-07-09T19:47:10.102864" level="INFO">Creating an instance of the Chrome WebDriver.</msg>
+<arg>${browser}</arg>
+<doc>Creates an instance of Selenium WebDriver.</doc>
+<status status="PASS" start="2026-07-09T19:47:10.090842" elapsed="2.667986"/>
+</kw>
+<kw name="Go To" owner="SeleniumLibrary">
+<msg time="2026-07-09T19:47:12.759170" level="INFO">Opening url 'https://automationpractice.techwithjatin.com/'</msg>
+<arg>https://automationpractice.techwithjatin.com/</arg>
+<doc>Navigates the current browser window to the provided ``url``.</doc>
+<status status="PASS" start="2026-07-09T19:47:12.759035" elapsed="0.765153"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2026-07-09T19:47:13.524663" elapsed="0.040132"/>
+</kw>
+<kw name="Click Link" owner="SeleniumLibrary">
+<msg time="2026-07-09T19:47:13.565562" level="INFO">Clicking link 'xpath://a[normalize-space()='Sign in']'.</msg>
+<arg>xpath://a[normalize-space()='Sign in']</arg>
+<doc>Clicks a link identified by ``locator``.</doc>
+<status status="PASS" start="2026-07-09T19:47:13.565030" elapsed="0.283506"/>
+</kw>
+<arg>Chrome</arg>
+<status status="PASS" start="2026-07-09T19:47:10.090166" elapsed="3.758576"/>
+</kw>
+<kw name="Fill Login Form">
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-07-09T19:47:13.850093" level="INFO">Typing text 'labisok230@hidevak.com' into text field 'id:email'.</msg>
+<arg>id:email</arg>
+<arg>${email}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-07-09T19:47:13.849668" elapsed="0.132109"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-07-09T19:47:13.982460" level="INFO">Typing text 'Test@123' into text field 'id:passwd'.</msg>
+<arg>id:passwd</arg>
+<arg>${password}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-07-09T19:47:13.982043" elapsed="0.106485"/>
+</kw>
+<kw name="Click Button" owner="SeleniumLibrary">
+<msg time="2026-07-09T19:47:14.089085" level="INFO">Clicking button 'id:SubmitLogin'.</msg>
+<arg>id:SubmitLogin</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="PASS" start="2026-07-09T19:47:14.088769" elapsed="0.305422"/>
+</kw>
+<arg>labisok230@hidevak.com</arg>
+<arg>Test@123</arg>
+<status status="PASS" start="2026-07-09T19:47:13.849097" elapsed="0.545282"/>
+</kw>
+<kw name="Validate Successful Login">
+<kw name="Element Should Be Visible" owner="SeleniumLibrary">
+<msg time="2026-07-09T19:47:14.421901" level="INFO">Element 'css:a[title='Log me out']' is displayed.</msg>
+<arg>css:a[title='Log me out']</arg>
+<doc>Verifies that the element identified by ``locator`` is visible.</doc>
+<status status="PASS" start="2026-07-09T19:47:14.395024" elapsed="0.027041"/>
+</kw>
+<kw name="Get Text" owner="SeleniumLibrary">
+<msg time="2026-07-09T19:47:14.469280" level="INFO">${username} = Amit Sawant</msg>
+<var>${username}</var>
+<arg>css:a[title='View my customer account'] span</arg>
+<doc>Returns the text value of the element identified by ``locator``.</doc>
+<status status="PASS" start="2026-07-09T19:47:14.422306" elapsed="0.047051"/>
+</kw>
+<kw name="Should Be Equal As Strings" owner="BuiltIn">
+<arg>${username}</arg>
+<arg>Amit Sawant</arg>
+<doc>Fails if objects are unequal after converting them to strings.</doc>
+<status status="PASS" start="2026-07-09T19:47:14.469609" elapsed="0.000619"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>User Name: ${username}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2026-07-09T19:47:14.470444" elapsed="0.000568"/>
+</kw>
+<status status="PASS" start="2026-07-09T19:47:14.394661" elapsed="0.076496"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary" type="TEARDOWN">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2026-07-09T19:47:14.471452" elapsed="2.206508"/>
+</kw>
+<tag>Positive</tag>
+<status status="PASS" start="2026-07-09T19:47:10.089521" elapsed="6.588628"/>
+</test>
+<doc>Test Suite for validate the login here</doc>
+<status status="PASS" start="2026-07-09T19:47:09.789444" elapsed="6.889776"/>
+</suite>
+<status status="PASS" start="2026-07-09T19:47:09.728267" elapsed="6.952065"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="1" fail="0" skip="0">Positive</stat>
+</tag>
+<suite>
+<stat name="Test" id="s1" pass="1" fail="0" skip="0">Test</stat>
+<stat name="testDemo1" id="s1-s1" pass="1" fail="0" skip="0">Test.testDemo1</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

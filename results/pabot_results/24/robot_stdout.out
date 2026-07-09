@@ -1,0 +1,19 @@
+==============================================================================
+Test
+==============================================================================
+Test.testSeleniumPractice :: Test Suite for validate the login here
+==============================================================================
+Screenshot directory: C:\Amit_Tech\Education\VisualStudio_Workspace\Robot_Automation_Projects\RobotAutomationDemo\RobotAutomationDemoProject\pages/../screenshots
+Invalid username                                                      | PASS |
+------------------------------------------------------------------------------
+Invalid password                                                      | PASS |
+------------------------------------------------------------------------------
+special characters                                                    | PASS |
+------------------------------------------------------------------------------
+Test.testSeleniumPractice :: Test Suite for validate the login here   | PASS |
+3 tests, 3 passed, 0 failed
+==============================================================================
+Test                                                                  | PASS |
+3 tests, 3 passed, 0 failed
+==============================================================================
+Output:  C:\Amit_Tech\Education\VisualStudio_Workspace\Robot_Automation_Projects\RobotAutomationDemo\RobotAutomationDemoProject\results\pabot_results\24\output.xml

@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.4.2 (Python 3.14.3 on win32)" generated="2026-07-09T19:46:16.454973" rpa="false" schemaversion="5">
+<suite id="s1" name="Test" source="C:\Amit_Tech\Education\VisualStudio_Workspace\Robot_Automation_Projects\RobotAutomationDemo\RobotAutomationDemoProject\test">
+<suite id="s1-s1" name="testAuthentication" source="C:\Amit_Tech\Education\VisualStudio_Workspace\Robot_Automation_Projects\RobotAutomationDemo\RobotAutomationDemoProject\test\testAuthentication.robot">
+<test id="s1-s1-t1" name="Login user with valid credential" line="19">
+<kw name="Open the URL with the login URL" type="SETUP">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2026-07-09T19:46:17.010902" level="INFO">Opening browser 'firefox' to base url 'https://automationpractice.techwithjatin.com/'.</msg>
+<arg>${URL}</arg>
+<arg>${BROWSER}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2026-07-09T19:46:17.010602" elapsed="9.436582"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2026-07-09T19:46:26.447596" elapsed="0.368857"/>
+</kw>
+<kw name="Click Link" owner="SeleniumLibrary">
+<msg time="2026-07-09T19:46:26.817311" level="INFO">Clicking link 'xpath://a[normalize-space()='Sign in']'.</msg>
+<arg>xpath://a[normalize-space()='Sign in']</arg>
+<doc>Clicks a link identified by ``locator``.</doc>
+<status status="PASS" start="2026-07-09T19:46:26.816742" elapsed="0.660359"/>
+</kw>
+<arg>${URL}</arg>
+<arg>${BROWSER}</arg>
+<status status="PASS" start="2026-07-09T19:46:17.009549" elapsed="10.467750"/>
+</kw>
+<kw name="Fill Login Form">
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-07-09T19:46:27.478562" level="INFO">Typing text 'labisok230@hidevak.com' into text field 'id:email'.</msg>
+<arg>id:email</arg>
+<arg>${email}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-07-09T19:46:27.478153" elapsed="0.107624"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-07-09T19:46:27.586499" level="INFO">Typing text 'Test@123' into text field 'id:passwd'.</msg>
+<arg>id:passwd</arg>
+<arg>${password}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-07-09T19:46:27.586063" elapsed="0.033850"/>
+</kw>
+<kw name="Click Button" owner="SeleniumLibrary">
+<msg time="2026-07-09T19:46:27.620514" level="INFO">Clicking button 'id:SubmitLogin'.</msg>
+<arg>id:SubmitLogin</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="PASS" start="2026-07-09T19:46:27.620172" elapsed="0.463301"/>
+</kw>
+<arg>labisok230@hidevak.com</arg>
+<arg>Test@123</arg>
+<status status="PASS" start="2026-07-09T19:46:27.477653" elapsed="0.606008"/>
+</kw>
+<kw name="Validate Successful Login">
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>${SIGN_OUT_LINK}</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2026-07-09T19:46:28.084316" elapsed="0.052883"/>
+</kw>
+<kw name="Get Text" owner="SeleniumLibrary">
+<msg time="2026-07-09T19:46:28.153096" level="INFO">${username} = Amit Sawant</msg>
+<var>${username}</var>
+<arg>css:a[title='View my customer account'] span</arg>
+<doc>Returns the text value of the element identified by ``locator``.</doc>
+<status status="PASS" start="2026-07-09T19:46:28.137481" elapsed="0.015689"/>
+</kw>
+<kw name="Should Be Equal As Strings" owner="BuiltIn">
+<arg>${username}</arg>
+<arg>Amit Sawant</arg>
+<doc>Fails if objects are unequal after converting them to strings.</doc>
+<status status="PASS" start="2026-07-09T19:46:28.153414" elapsed="0.000605"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>User Name: ${username}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2026-07-09T19:46:28.154235" elapsed="0.000872"/>
+</kw>
+<status status="PASS" start="2026-07-09T19:46:28.083937" elapsed="0.071417"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary" type="TEARDOWN">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2026-07-09T19:46:28.155727" elapsed="4.007089"/>
+</kw>
+<tag>Positive</tag>
+<status status="PASS" start="2026-07-09T19:46:17.008585" elapsed="15.154344"/>
+</test>
+<doc>Test Suite for validate the login here</doc>
+<status status="PASS" start="2026-07-09T19:46:16.498738" elapsed="15.664680"/>
+</suite>
+<status status="PASS" start="2026-07-09T19:46:16.456967" elapsed="15.706923"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="1" fail="0" skip="0">Positive</stat>
+</tag>
+<suite>
+<stat name="Test" id="s1" pass="1" fail="0" skip="0">Test</stat>
+<stat name="testAuthentication" id="s1-s1" pass="1" fail="0" skip="0">Test.testAuthentication</stat>
+</suite>
+</statistics>
+<errors>
+<msg time="2026-07-09T19:46:17.007350" level="ERROR">Error in file 'C:\Amit_Tech\Education\VisualStudio_Workspace\Robot_Automation_Projects\RobotAutomationDemo\RobotAutomationDemoProject\resources\resource.robot' on line 8: Setting 'Suite Setup' is not allowed in resource file.</msg>
+<msg time="2026-07-09T19:46:17.007465" level="ERROR">Error in file 'C:\Amit_Tech\Education\VisualStudio_Workspace\Robot_Automation_Projects\RobotAutomationDemo\RobotAutomationDemoProject\resources\resource.robot' on line 9: Setting 'Test Teardown' is not allowed in resource file.</msg>
+</errors>
+</robot>

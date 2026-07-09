@@ -1,0 +1,15 @@
+2026-07-09 19:46:35.787608 ==============================================================================
+2026-07-09 19:46:35.832955 Test
+2026-07-09 19:46:35.833013 ==============================================================================
+2026-07-09 19:46:36.148161 Test.testDataDriven :: Test Suite for validate the login here
+2026-07-09 19:46:36.164745 ==============================================================================
+2026-07-09 19:46:36.164818 Screenshot directory: C:\Amit_Tech\Education\VisualStudio_Workspace\Robot_Automation_Projects\RobotAutomationDemo\RobotAutomationDemoProject\pages/../screenshots
+2026-07-09 19:46:52.350114 Invalid username                                                      | PASS |
+2026-07-09 19:46:52.354371 ------------------------------------------------------------------------------
+2026-07-09 19:46:52.426966 Test.testDataDriven :: Test Suite for validate the login here         | PASS |
+2026-07-09 19:46:52.427086 1 test, 1 passed, 0 failed
+2026-07-09 19:46:52.427122 ==============================================================================
+2026-07-09 19:46:52.427132 Test                                                                  | PASS |
+2026-07-09 19:46:52.427141 1 test, 1 passed, 0 failed
+2026-07-09 19:46:52.427149 ==============================================================================
+2026-07-09 19:46:52.427157 Output:  C:\Amit_Tech\Education\VisualStudio_Workspace\Robot_Automation_Projects\RobotAutomationDemo\RobotAutomationDemoProject\results\pabot_results\4\output.xml

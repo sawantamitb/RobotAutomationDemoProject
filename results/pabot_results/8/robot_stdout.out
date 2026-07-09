@@ -1,0 +1,15 @@
+==============================================================================
+Test
+==============================================================================
+Test.testDemo1 :: Test Suite for validate the login here
+==============================================================================
+Login user with invalid credential                                    Error: Authentication failed.
+| PASS |
+------------------------------------------------------------------------------
+Test.testDemo1 :: Test Suite for validate the login here              | PASS |
+1 test, 1 passed, 0 failed
+==============================================================================
+Test                                                                  | PASS |
+1 test, 1 passed, 0 failed
+==============================================================================
+Output:  C:\Amit_Tech\Education\VisualStudio_Workspace\Robot_Automation_Projects\RobotAutomationDemo\RobotAutomationDemoProject\results\pabot_results\8\output.xml

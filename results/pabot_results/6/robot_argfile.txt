@@ -1,0 +1,17 @@
+--test Test.testDataDriven.special characters
+--variable BROWSER:firefox
+--variable CALLER_ID:853d94b31e3f400fbfe8ffa828bcdb60
+--variable PABOTLIBURI:127.0.0.1:8270
+--variable PABOTEXECUTIONPOOLID:0
+--variable PABOTISLASTEXECUTIONINPOOL:0
+--variable PABOTNUMBEROFPROCESSES:2
+--variable PABOTQUEUEINDEX:6
+--variable PABOTLASTLEVEL:Test.testDataDriven
+--outputdir results\pabot_results\6
+--output output.xml
+--log NONE
+--report NONE
+--xunit NONE
+--consolecolors off
+--consolemarkers off
+test/

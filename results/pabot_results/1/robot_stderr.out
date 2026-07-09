@@ -1,0 +1,2 @@
+[ ERROR ] Error in file 'C:\Amit_Tech\Education\VisualStudio_Workspace\Robot_Automation_Projects\RobotAutomationDemo\RobotAutomationDemoProject\resources\resource.robot' on line 8: Setting 'Suite Setup' is not allowed in resource file.
+[ ERROR ] Error in file 'C:\Amit_Tech\Education\VisualStudio_Workspace\Robot_Automation_Projects\RobotAutomationDemo\RobotAutomationDemoProject\resources\resource.robot' on line 9: Setting 'Test Teardown' is not allowed in resource file.

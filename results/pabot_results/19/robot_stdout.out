@@ -1,0 +1,18 @@
+==============================================================================
+Test
+==============================================================================
+Test.testSeleniumPractice :: Test Suite for validate the login here
+==============================================================================
+Screenshot directory: C:\Amit_Tech\Education\VisualStudio_Workspace\Robot_Automation_Projects\RobotAutomationDemo\RobotAutomationDemoProject\pages/../screenshots
+Login with multiple test data user 1234 and password 4321             | PASS |
+------------------------------------------------------------------------------
+Login with multiple test data user rahulshettyacademy and password... | FAIL |
+Element 'css:.alert-danger' not visible after 20 seconds.
+------------------------------------------------------------------------------
+Test.testSeleniumPractice :: Test Suite for validate the login here   | FAIL |
+2 tests, 1 passed, 1 failed
+==============================================================================
+Test                                                                  | FAIL |
+2 tests, 1 passed, 1 failed
+==============================================================================
+Output:  C:\Amit_Tech\Education\VisualStudio_Workspace\Robot_Automation_Projects\RobotAutomationDemo\RobotAutomationDemoProject\results\pabot_results\19\output.xml

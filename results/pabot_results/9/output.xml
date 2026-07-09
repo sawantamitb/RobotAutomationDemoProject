@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.4.2 (Python 3.14.3 on win32)" generated="2026-07-09T19:47:18.501374" rpa="false" schemaversion="5">
+<suite id="s1" name="Test" source="C:\Amit_Tech\Education\VisualStudio_Workspace\Robot_Automation_Projects\RobotAutomationDemo\RobotAutomationDemoProject\test">
+<suite id="s1-s1" name="testDemo2" source="C:\Amit_Tech\Education\VisualStudio_Workspace\Robot_Automation_Projects\RobotAutomationDemo\RobotAutomationDemoProject\test\testDemo2.robot">
+<kw name="Initial Setup" type="SETUP">
+<kw name="Prepare Screenshot Directory">
+<kw name="Set Screenshot Directory" owner="SeleniumLibrary">
+<arg>${SCREENSHOT_DIR}</arg>
+<doc>Sets the directory for captured screenshots.</doc>
+<status status="PASS" start="2026-07-09T19:47:19.354158" elapsed="0.000482"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Screenshot directory: ${SCREENSHOT_DIR}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2026-07-09T19:47:19.354907" elapsed="0.000551"/>
+</kw>
+<kw name="Delete Old Screenshots">
+<kw name="Run Keyword And Ignore Error" owner="BuiltIn">
+<kw name="Remove Files" owner="OperatingSystem">
+<msg time="2026-07-09T19:47:19.357294" level="INFO" html="true">File '&lt;a href="file://C:\Amit_Tech\Education\VisualStudio_Workspace\Robot_Automation_Projects\RobotAutomationDemo\RobotAutomationDemoProject\screenshots\*.png"&gt;C:\Amit_Tech\Education\VisualStudio_Workspace\Robot_Automation_Projects\RobotAutomationDemo\RobotAutomationDemoProject\screenshots\*.png&lt;/a&gt;' does not exist.</msg>
+<arg>${SCREENSHOT_DIR}${/}*.png</arg>
+<doc>Uses `Remove File` to remove multiple files one-by-one.</doc>
+<status status="PASS" start="2026-07-09T19:47:19.356433" elapsed="0.001107"/>
+</kw>
+<arg>Remove Files</arg>
+<arg>${SCREENSHOT_DIR}${/}*.png</arg>
+<doc>Runs the given keyword with the given arguments and ignores possible error.</doc>
+<status status="PASS" start="2026-07-09T19:47:19.355948" elapsed="0.001768"/>
+</kw>
+<status status="PASS" start="2026-07-09T19:47:19.355688" elapsed="0.002187"/>
+</kw>
+<status status="PASS" start="2026-07-09T19:47:19.353206" elapsed="0.004790"/>
+</kw>
+<kw name="Delete Old Screenshots">
+<kw name="Run Keyword And Ignore Error" owner="BuiltIn">
+<kw name="Remove Files" owner="OperatingSystem">
+<msg time="2026-07-09T19:47:19.359785" level="INFO" html="true">File '&lt;a href="file://C:\Amit_Tech\Education\VisualStudio_Workspace\Robot_Automation_Projects\RobotAutomationDemo\RobotAutomationDemoProject\screenshots\*.png"&gt;C:\Amit_Tech\Education\VisualStudio_Workspace\Robot_Automation_Projects\RobotAutomationDemo\RobotAutomationDemoProject\screenshots\*.png&lt;/a&gt;' does not exist.</msg>
+<arg>${SCREENSHOT_DIR}${/}*.png</arg>
+<doc>Uses `Remove File` to remove multiple files one-by-one.</doc>
+<status status="PASS" start="2026-07-09T19:47:19.359091" elapsed="0.000824"/>
+</kw>
+<arg>Remove Files</arg>
+<arg>${SCREENSHOT_DIR}${/}*.png</arg>
+<doc>Runs the given keyword with the given arguments and ignores possible error.</doc>
+<status status="PASS" start="2026-07-09T19:47:19.358624" elapsed="0.001399"/>
+</kw>
+<status status="PASS" start="2026-07-09T19:47:19.358290" elapsed="0.001830"/>
+</kw>
+<status status="PASS" start="2026-07-09T19:47:19.352730" elapsed="0.007458"/>
+</kw>
+<test id="s1-s1-t1" name="Login user with valid credential" line="20">
+<kw name="Open the URL with the login URL" type="SETUP">
+<kw name="Open Browser" owner="SeleniumLibrary">
+<msg time="2026-07-09T19:47:19.361889" level="INFO">Opening browser 'firefox' to base url 'https://automationpractice.techwithjatin.com/'.</msg>
+<arg>${URL}</arg>
+<arg>${BROWSER}</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2026-07-09T19:47:19.361585" elapsed="7.910546"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2026-07-09T19:47:27.272626" elapsed="0.325975"/>
+</kw>
+<kw name="Click Link" owner="SeleniumLibrary">
+<msg time="2026-07-09T19:47:27.599531" level="INFO">Clicking link 'xpath://a[normalize-space()='Sign in']'.</msg>
+<arg>xpath://a[normalize-space()='Sign in']</arg>
+<doc>Clicks a link identified by ``locator``.</doc>
+<status status="PASS" start="2026-07-09T19:47:27.598892" elapsed="0.771344"/>
+</kw>
+<arg>${URL}</arg>
+<arg>${BROWSER}</arg>
+<status status="PASS" start="2026-07-09T19:47:19.361122" elapsed="9.009406"/>
+</kw>
+<kw name="Fill Login Form">
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-07-09T19:47:28.372615" level="INFO">Typing text 'labisok230@hidevak.com' into text field 'id:email'.</msg>
+<arg>id:email</arg>
+<arg>${email}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-07-09T19:47:28.371930" elapsed="0.076363"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-07-09T19:47:28.449394" level="INFO">Typing text 'Test@12311' into text field 'id:passwd'.</msg>
+<arg>id:passwd</arg>
+<arg>${password}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-07-09T19:47:28.448677" elapsed="0.055429"/>
+</kw>
+<kw name="Click Button" owner="SeleniumLibrary">
+<msg time="2026-07-09T19:47:28.505361" level="INFO">Clicking button 'id:SubmitLogin'.</msg>
+<arg>id:SubmitLogin</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="PASS" start="2026-07-09T19:47:28.504518" elapsed="0.465070"/>
+</kw>
+<arg>labisok230@hidevak.com</arg>
+<arg>Test@12311</arg>
+<status status="PASS" start="2026-07-09T19:47:28.371068" elapsed="0.598902"/>
+</kw>
+<kw name="Validate Successful Login">
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<msg time="2026-07-09T19:47:34.283251" level="INFO" html="true">&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td colspan="3"&gt;&lt;a href="../../../screenshots/selenium-screenshot-1.png"&gt;&lt;img src="../../../screenshots/selenium-screenshot-1.png" width="800px"&gt;&lt;/a&gt;</msg>
+<msg time="2026-07-09T19:47:34.283612" level="FAIL">Element 'css:a[title='Log me out']' not visible after 5 seconds.</msg>
+<arg>${SIGN_OUT_LINK}</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="FAIL" start="2026-07-09T19:47:28.973491" elapsed="5.449945">Element 'css:a[title='Log me out']' not visible after 5 seconds.</status>
+</kw>
+<kw name="Get Text" owner="SeleniumLibrary">
+<var>${username}</var>
+<arg>css:a[title='View my customer account'] span</arg>
+<doc>Returns the text value of the element identified by ``locator``.</doc>
+<status status="NOT RUN" start="2026-07-09T19:47:34.423842" elapsed="0.000079"/>
+</kw>
+<kw name="Should Be Equal As Strings" owner="BuiltIn">
+<arg>${username}</arg>
+<arg>Amit Sawant</arg>
+<doc>Fails if objects are unequal after converting them to strings.</doc>
+<status status="NOT RUN" start="2026-07-09T19:47:34.424135" elapsed="0.000062"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>User Name: ${username}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="NOT RUN" start="2026-07-09T19:47:34.424389" elapsed="0.000054"/>
+</kw>
+<status status="FAIL" start="2026-07-09T19:47:28.970580" elapsed="5.454120">Element 'css:a[title='Log me out']' not visible after 5 seconds.</status>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary" type="TEARDOWN">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2026-07-09T19:47:34.425140" elapsed="4.307898"/>
+</kw>
+<tag>Positive</tag>
+<status status="FAIL" start="2026-07-09T19:47:19.360305" elapsed="19.372908">Element 'css:a[title='Log me out']' not visible after 5 seconds.</status>
+</test>
+<doc>Test Suite for validate the login here</doc>
+<status status="FAIL" start="2026-07-09T19:47:18.597637" elapsed="20.136464"/>
+</suite>
+<status status="FAIL" start="2026-07-09T19:47:18.505706" elapsed="20.229355"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="0" fail="1" skip="0">Positive</stat>
+</tag>
+<suite>
+<stat name="Test" id="s1" pass="0" fail="1" skip="0">Test</stat>
+<stat name="testDemo2" id="s1-s1" pass="0" fail="1" skip="0">Test.testDemo2</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

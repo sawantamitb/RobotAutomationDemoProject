@@ -1,0 +1,16 @@
+==============================================================================
+Test
+==============================================================================
+Test.testDemo2 :: Test Suite for validate the login here
+==============================================================================
+Screenshot directory: C:\Amit_Tech\Education\VisualStudio_Workspace\Robot_Automation_Projects\RobotAutomationDemo\RobotAutomationDemoProject\test/../screenshots
+Login user with valid credential                                      | FAIL |
+Element 'css:a[title='Log me out']' not visible after 5 seconds.
+------------------------------------------------------------------------------
+Test.testDemo2 :: Test Suite for validate the login here              | FAIL |
+1 test, 0 passed, 1 failed
+==============================================================================
+Test                                                                  | FAIL |
+1 test, 0 passed, 1 failed
+==============================================================================
+Output:  C:\Amit_Tech\Education\VisualStudio_Workspace\Robot_Automation_Projects\RobotAutomationDemo\RobotAutomationDemoProject\results\pabot_results\9\output.xml

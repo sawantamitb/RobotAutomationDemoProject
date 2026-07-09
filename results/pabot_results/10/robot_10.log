@@ -1,0 +1,16 @@
+2026-07-09 19:47:24.363544 ==============================================================================
+2026-07-09 19:47:24.386532 Test
+2026-07-09 19:47:24.386596 ==============================================================================
+2026-07-09 19:47:24.822717 Test.testDemo2 :: Test Suite for validate the login here
+2026-07-09 19:47:24.850950 ==============================================================================
+2026-07-09 19:47:24.851017 Screenshot directory: C:\Amit_Tech\Education\VisualStudio_Workspace\Robot_Automation_Projects\RobotAutomationDemo\RobotAutomationDemoProject\test/../screenshots
+2026-07-09 19:47:35.779667 Login user with invalid credential                                    Error: Authentication failed.
+2026-07-09 19:47:39.150763 | PASS |
+2026-07-09 19:47:39.202154 ------------------------------------------------------------------------------
+2026-07-09 19:47:39.342215 Test.testDemo2 :: Test Suite for validate the login here              | PASS |
+2026-07-09 19:47:39.342243 1 test, 1 passed, 0 failed
+2026-07-09 19:47:39.342252 ==============================================================================
+2026-07-09 19:47:39.342259 Test                                                                  | PASS |
+2026-07-09 19:47:39.342265 1 test, 1 passed, 0 failed
+2026-07-09 19:47:39.342271 ==============================================================================
+2026-07-09 19:47:39.342278 Output:  C:\Amit_Tech\Education\VisualStudio_Workspace\Robot_Automation_Projects\RobotAutomationDemo\RobotAutomationDemoProject\results\pabot_results\10\output.xml

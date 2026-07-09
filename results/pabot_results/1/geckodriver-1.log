@@ -1,0 +1,19 @@
+1783606577372	geckodriver	INFO	Listening on 127.0.0.1:59396
+1783606580456	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "59397" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\sawan\\AppData\\Local\\Temp\\rust_mozprofile86Otu0"
+Dynamically enable window occlusion 0
+1783606580901	Marionette	INFO	Marionette enabled
+1783606581010	Marionette	INFO	Listening on port 59447
+WebDriver BiDi listening on ws://127.0.0.1:59397
+Read port: 59447
+1783606581193	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[ERROR shell_windows::limited_access_features] Error generating feature token: NS_ERROR_FAILURE
+console.error: "Experiment desktop-release-rollout-show-relay-to-all-browsers-next-sign-up-modal-cta has unknown featureId: email-autocomplete-relay"
+console.error: "Experiment visual-card-updates has unknown featureId: newtabRefinedCardsLayout"
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://automationpractice.techwithjatin.com."
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://automationpractice.techwithjatin.com."
+console.error: [Exception... "Component is not available"  nsresult: "0x80040111 (NS_ERROR_NOT_AVAILABLE)"  location: "<unknown>"  data: no]
+1783606589364	Marionette	INFO	Stopped listening on port 59447
+Dynamically enable window occlusion 1
+console.error: Translations: "Failed to run language detection." (new AbortError("Actor 'Translations' destroyed before query 'Translations:GetDocumentElementLang' was resolved", (void 0)))
+console.warn: services.settings: main/fxrelay-allowlist sync interrupted by shutdown
+console.warn: TopSitesFeed: Failed to fetch data from MARS server: NetworkError when attempting to fetch resource.

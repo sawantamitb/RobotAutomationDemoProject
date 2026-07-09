@@ -2,3 +2,5 @@ robotframework==7.4.2
 robotframework-seleniumlibrary==6.9.0
 robotframework-datadriver==1.11.2
 selenium==4.45.0
+#command to run the parallel suites
+#pabot pabot --variable BROWSER:firefox --processes 2 --testlevelsplit --outputdir results test/

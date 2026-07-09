@@ -1,0 +1,18 @@
+--suite Test.testSeleniumPractice
+--variable BROWSER:firefox
+--variable DYNAMICTESTS:Test.testSeleniumPractice.Validate Unsuccessful Login|Test.testSeleniumPractice.Validate Unsuccessful Login
+--variable CALLER_ID:864a7f8b47104384a16f0a84d5bf619d
+--variable PABOTLIBURI:127.0.0.1:8270
+--variable PABOTEXECUTIONPOOLID:1
+--variable PABOTISLASTEXECUTIONINPOOL:0
+--variable PABOTNUMBEROFPROCESSES:2
+--variable PABOTQUEUEINDEX:21
+--variable PABOTLASTLEVEL:
+--outputdir results\pabot_results\21
+--output output.xml
+--log NONE
+--report NONE
+--xunit NONE
+--consolecolors off
+--consolemarkers off
+test/

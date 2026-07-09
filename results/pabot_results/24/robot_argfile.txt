@@ -1,0 +1,18 @@
+--suite Test.testSeleniumPractice
+--variable BROWSER:firefox
+--variable DYNAMICTESTS:Test.testSeleniumPractice.Invalid username|Test.testSeleniumPractice.Invalid password|Test.testSeleniumPractice.special characters
+--variable CALLER_ID:5d5261d41f204edd80b5758ced8a9e11
+--variable PABOTLIBURI:127.0.0.1:8270
+--variable PABOTEXECUTIONPOOLID:0
+--variable PABOTISLASTEXECUTIONINPOOL:0
+--variable PABOTNUMBEROFPROCESSES:2
+--variable PABOTQUEUEINDEX:24
+--variable PABOTLASTLEVEL:Test.testSeleniumPractice.PABOT_noend
+--outputdir results\pabot_results\24
+--output output.xml
+--log NONE
+--report NONE
+--xunit NONE
+--consolecolors off
+--consolemarkers off
+test/

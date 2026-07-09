@@ -1,0 +1,18 @@
+--suite Test.testSeleniumPractice
+--variable BROWSER:firefox
+--variable DYNAMICTESTS:Test.testSeleniumPractice.Select the Form and navigate to Child window|Test.testSeleniumPractice.Select the Form and navigate to Child window
+--variable CALLER_ID:0e1512fd90b649a98f0653c9c6d68ec5
+--variable PABOTLIBURI:127.0.0.1:8270
+--variable PABOTEXECUTIONPOOLID:1
+--variable PABOTISLASTEXECUTIONINPOOL:1
+--variable PABOTNUMBEROFPROCESSES:2
+--variable PABOTQUEUEINDEX:25
+--variable PABOTLASTLEVEL:
+--outputdir results\pabot_results\25
+--output output.xml
+--log NONE
+--report NONE
+--xunit NONE
+--consolecolors off
+--consolemarkers off
+test/

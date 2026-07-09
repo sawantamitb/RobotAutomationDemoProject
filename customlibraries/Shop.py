@@ -24,4 +24,4 @@ class Shop:
                 i = i + 1
 
         self.selLib.click_link("css:li.active a")
-        time.sleep(5)
+        time.sleep(2)

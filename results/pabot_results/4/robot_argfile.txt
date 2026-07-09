@@ -1,0 +1,17 @@
+--test Test.testDataDriven.Invalid username
+--variable BROWSER:firefox
+--variable CALLER_ID:a30a5438ad50449d9fcc67164aee5588
+--variable PABOTLIBURI:127.0.0.1:8270
+--variable PABOTEXECUTIONPOOLID:0
+--variable PABOTISLASTEXECUTIONINPOOL:0
+--variable PABOTNUMBEROFPROCESSES:2
+--variable PABOTQUEUEINDEX:4
+--variable PABOTLASTLEVEL:Test.testDataDriven.Invalid username
+--outputdir results\pabot_results\4
+--output output.xml
+--log NONE
+--report NONE
+--xunit NONE
+--consolecolors off
+--consolemarkers off
+test/

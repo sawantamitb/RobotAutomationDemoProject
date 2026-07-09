@@ -1,0 +1,17 @@
+2026-07-09 19:47:42.367041 ==============================================================================
+2026-07-09 19:47:42.372231 Test
+2026-07-09 19:47:42.372266 ==============================================================================
+2026-07-09 19:47:42.740171 Test.testWindowHandles :: Test Suite for validate the login here
+2026-07-09 19:47:42.762388 ==============================================================================
+2026-07-09 19:47:42.762478 Screenshot directory: C:\Amit_Tech\Education\VisualStudio_Workspace\Robot_Automation_Projects\RobotAutomationDemo\RobotAutomationDemoProject\pages/../screenshots
+2026-07-09 19:47:57.861756 Validate Child window Functionality                                    mentor@rahulshettyacademy.com with below templ
+2026-07-09 19:47:57.909563 mentor@rahulshettyacademy.com
+2026-07-09 19:48:03.349837 | PASS |
+2026-07-09 19:48:03.403619 ------------------------------------------------------------------------------
+2026-07-09 19:48:03.403650 Test.testWindowHandles :: Test Suite for validate the login here      | PASS |
+2026-07-09 19:48:03.405067 1 test, 1 passed, 0 failed
+2026-07-09 19:48:03.405096 ==============================================================================
+2026-07-09 19:48:03.405114 Test                                                                  | PASS |
+2026-07-09 19:48:03.405817 1 test, 1 passed, 0 failed
+2026-07-09 19:48:03.405845 ==============================================================================
+2026-07-09 19:48:03.405864 Output:  C:\Amit_Tech\Education\VisualStudio_Workspace\Robot_Automation_Projects\RobotAutomationDemo\RobotAutomationDemoProject\results\pabot_results\15\output.xml

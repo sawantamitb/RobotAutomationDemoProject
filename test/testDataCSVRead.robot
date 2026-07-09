@@ -11,7 +11,7 @@ Test Setup      Open The URL With The Login URL  ${URL}    ${BROWSER}
 Test Teardown   Close Browser
 Test Template   Validate Unsuccessful Login
 Default Tags    Positive
-Resource         ../resources/generic.robot
+Resource         ../pages/Generic.robot
 #Resourcecls
 
 
@@ -23,7 +23,6 @@ ${SHOP_PAGE_LOAD}          css:.nav-link
 Login with user ${username} and password ${password}        default     default
 
 *** Keywords ***
-
 Validate Unsuccessful Login
    [Arguments]    ${username}    ${password}
    #Open the URL with the login URL    ${URL}    ${BROWSER}

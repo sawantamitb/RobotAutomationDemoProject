@@ -1,0 +1,153 @@
+[INFO]    Initialized logging in results\pabot_results
+[INFO]    Robot Framework remote server at 127.0.0.1:8270 started.
+[DEBUG]   Storing .pabotsuitenames file
+[DEBUG]   2026-07-09 19:46:15.808554 [PID:14200] [1] [ID:1] EXECUTING Test.testAuthentication.Login user with invalid credential
+[DEBUG]   2026-07-09 19:46:15.808953 [PID:34792] [0] [ID:0] EXECUTING Test.testAuthentication.Login user with valid credential
+[DEBUG]   2026-07-09 19:46:20.831639 [PID:34792] [0] [ID:0] still running Test.testAuthentication.Login user with valid credential after 5.0s
+[DEBUG]   2026-07-09 19:46:20.831867 [PID:14200] [1] [ID:1] still running Test.testAuthentication.Login user with invalid credential after 5.0s
+[DEBUG]   2026-07-09 19:46:31.062907 [PID:34792] [0] [ID:0] still running Test.testAuthentication.Login user with valid credential after 15.0s
+[DEBUG]   2026-07-09 19:46:31.063791 [PID:14200] [1] [ID:1] still running Test.testAuthentication.Login user with invalid credential after 15.0s
+[INFO]    2026-07-09 19:46:32.477579 [PID:34792] [0] [ID:0] PASSED Test.testAuthentication.Login user with valid credential in 16.8 seconds
+[DEBUG]   2026-07-09 19:46:32.493682 [PID:17500] [0] [ID:2] EXECUTING Test.testCustomLibrary.Validate Cards display in the Shopping Page
+[INFO]    2026-07-09 19:46:33.888417 [PID:14200] [1] [ID:1] PASSED Test.testAuthentication.Login user with invalid credential in 18.2 seconds
+[DEBUG]   2026-07-09 19:46:33.901187 [PID:28420] [1] [ID:3] EXECUTING Test.testDataCSVRead.Login with user ${username} and password ${password}
+[INFO]    2026-07-09 19:46:35.212721 [PID:28420] [1] [ID:3] IGNORED Test.testDataCSVRead.Login with user ${username} and password ${password}
+[DEBUG]   2026-07-09 19:46:35.230823 [PID:10392] [0] [ID:4] EXECUTING Test.testDataDriven.Invalid username
+[DEBUG]   2026-07-09 19:46:37.526386 [PID:17500] [0] [ID:2] still running Test.testCustomLibrary.Validate Cards display in the Shopping Page after 5.0s
+[DEBUG]   2026-07-09 19:46:40.252049 [PID:10392] [0] [ID:4] still running Test.testDataDriven.Invalid username after 5.0s
+[DEBUG]   2026-07-09 19:46:47.644202 [PID:17500] [0] [ID:2] still running Test.testCustomLibrary.Validate Cards display in the Shopping Page after 15.0s
+[DEBUG]   2026-07-09 19:46:50.359975 [PID:10392] [0] [ID:4] still running Test.testDataDriven.Invalid username after 15.0s
+[INFO]    2026-07-09 19:46:51.733662 [PID:17500] [0] [ID:2] PASSED Test.testCustomLibrary.Validate Cards display in the Shopping Page in 19.1 seconds
+[DEBUG]   2026-07-09 19:46:51.845714 [PID:2872] [1] [ID:5] EXECUTING Test.testDataDriven.Invalid password
+[INFO]    2026-07-09 19:46:52.679273 [PID:10392] [0] [ID:4] PASSED Test.testDataDriven.Invalid username in 17.4 seconds
+[DEBUG]   2026-07-09 19:46:52.686989 [PID:16572] [0] [ID:6] EXECUTING Test.testDataDriven.special characters
+[DEBUG]   2026-07-09 19:46:56.883818 [PID:2872] [1] [ID:5] still running Test.testDataDriven.Invalid password after 5.0s
+[DEBUG]   2026-07-09 19:46:57.714889 [PID:16572] [0] [ID:6] still running Test.testDataDriven.special characters after 5.0s
+[DEBUG]   2026-07-09 19:47:07.061398 [PID:2872] [1] [ID:5] still running Test.testDataDriven.Invalid password after 15.0s
+[DEBUG]   2026-07-09 19:47:07.875141 [PID:16572] [0] [ID:6] still running Test.testDataDriven.special characters after 15.0s
+[INFO]    2026-07-09 19:47:09.175070 [PID:2872] [1] [ID:5] PASSED Test.testDataDriven.Invalid password in 17.3 seconds
+[DEBUG]   2026-07-09 19:47:09.182900 [PID:21616] [1] [ID:7] EXECUTING Test.testDemo1.Login user with valid credential
+[INFO]    2026-07-09 19:47:09.486387 [PID:16572] [0] [ID:6] PASSED Test.testDataDriven.special characters in 16.8 seconds
+[DEBUG]   2026-07-09 19:47:09.493184 [PID:35332] [0] [ID:8] EXECUTING Test.testDemo1.Login user with invalid credential
+[DEBUG]   2026-07-09 19:47:14.206761 [PID:21616] [1] [ID:7] still running Test.testDemo1.Login user with valid credential after 5.0s
+[DEBUG]   2026-07-09 19:47:14.513738 [PID:35332] [0] [ID:8] still running Test.testDemo1.Login user with invalid credential after 5.0s
+[INFO]    2026-07-09 19:47:17.034109 [PID:21616] [1] [ID:7] PASSED Test.testDemo1.Login user with valid credential in 7.8 seconds
+[DEBUG]   2026-07-09 19:47:17.054010 [PID:20708] [1] [ID:9] EXECUTING Test.testDemo2.Login user with valid credential
+[DEBUG]   2026-07-09 19:47:22.080619 [PID:20708] [1] [ID:9] still running Test.testDemo2.Login user with valid credential after 5.0s
+[INFO]    2026-07-09 19:47:23.662561 [PID:35332] [0] [ID:8] PASSED Test.testDemo1.Login user with invalid credential in 14.2 seconds
+[DEBUG]   2026-07-09 19:47:23.677685 [PID:32580] [0] [ID:10] EXECUTING Test.testDemo2.Login user with invalid credential
+[DEBUG]   2026-07-09 19:47:28.701775 [PID:32580] [0] [ID:10] still running Test.testDemo2.Login user with invalid credential after 5.0s
+[DEBUG]   2026-07-09 19:47:32.124037 [PID:20708] [1] [ID:9] still running Test.testDemo2.Login user with valid credential after 15.0s
+[DEBUG]   2026-07-09 19:47:38.771045 [PID:32580] [0] [ID:10] still running Test.testDemo2.Login user with invalid credential after 15.0s
+[INFO]    2026-07-09 19:47:38.977634 [PID:20708] [1] [ID:9] FAILED Test.testDemo2.Login user with valid credential
+[DEBUG]   2026-07-09 19:47:38.993255 [PID:14460] [1] [ID:11] EXECUTING Test.testSeleniumPractice.Login with multiple test data user ${username} and password ${password}
+[INFO]    2026-07-09 19:47:39.738720 [PID:32580] [0] [ID:10] PASSED Test.testDemo2.Login user with invalid credential in 15.8 seconds
+[DEBUG]   2026-07-09 19:47:39.956208 [PID:24796] [0] [ID:12] EXECUTING Test.testSeleniumPractice.Validate Unsuccessful Login
+[INFO]    2026-07-09 19:47:40.405196 [PID:14460] [1] [ID:11] IGNORED Test.testSeleniumPractice.Login with multiple test data user ${username} and password ${password}
+[DEBUG]   2026-07-09 19:47:40.415025 [PID:35580] [1] [ID:13] EXECUTING Test.testSeleniumPractice.End to end ecommerce Product validation
+[INFO]    2026-07-09 19:47:41.266658 [PID:24796] [0] [ID:12] IGNORED Test.testSeleniumPractice.Validate Unsuccessful Login
+[DEBUG]   2026-07-09 19:47:41.276639 [PID:22712] [0] [ID:14] EXECUTING Test.testSeleniumPractice.Select the Form and navigate to Child window
+[INFO]    2026-07-09 19:47:41.735774 [PID:35580] [1] [ID:13] IGNORED Test.testSeleniumPractice.End to end ecommerce Product validation
+[DEBUG]   2026-07-09 19:47:41.747274 [PID:19572] [1] [ID:15] EXECUTING Test.testWindowHandles.Validate Child window Functionality
+[INFO]    2026-07-09 19:47:42.691416 [PID:22712] [0] [ID:14] IGNORED Test.testSeleniumPractice.Select the Form and navigate to Child window
+[DEBUG]   2026-07-09 19:47:42.701193 [PID:16132] [0] [ID:16] EXECUTING Test.testDataCSVRead
+[DEBUG]   2026-07-09 19:47:46.767650 [PID:19572] [1] [ID:15] still running Test.testWindowHandles.Validate Child window Functionality after 5.0s
+[DEBUG]   2026-07-09 19:47:47.727628 [PID:16132] [0] [ID:16] still running Test.testDataCSVRead after 5.0s
+[DEBUG]   2026-07-09 19:47:56.946502 [PID:19572] [1] [ID:15] still running Test.testWindowHandles.Validate Child window Functionality after 15.0s
+[DEBUG]   2026-07-09 19:47:57.904274 [PID:16132] [0] [ID:16] still running Test.testDataCSVRead after 15.0s
+[INFO]    2026-07-09 19:48:03.703801 [PID:19572] [1] [ID:15] PASSED Test.testWindowHandles.Validate Child window Functionality in 22.0 seconds
+[DEBUG]   2026-07-09 19:48:03.718926 [PID:14124] [1] [ID:17] EXECUTING Test.testDataCSVRead
+[DEBUG]   2026-07-09 19:48:08.743330 [PID:14124] [1] [ID:17] still running Test.testDataCSVRead after 5.0s
+[DEBUG]   2026-07-09 19:48:13.092677 [PID:16132] [0] [ID:16] still running Test.testDataCSVRead after 30.0s
+[DEBUG]   2026-07-09 19:48:18.851561 [PID:14124] [1] [ID:17] still running Test.testDataCSVRead after 15.0s
+[INFO]    2026-07-09 19:48:31.899189 [PID:16132] [0] [ID:16] PASSED Test.testDataCSVRead in 49.2 seconds
+[DEBUG]   2026-07-09 19:48:31.934090 [PID:20096] [0] [ID:18] EXECUTING Test.testSeleniumPractice
+[DEBUG]   2026-07-09 19:48:33.919161 [PID:14124] [1] [ID:17] still running Test.testDataCSVRead after 30.0s
+[DEBUG]   2026-07-09 19:48:36.955920 [PID:20096] [0] [ID:18] still running Test.testSeleniumPractice after 5.0s
+[INFO]    2026-07-09 19:48:43.297068 [PID:14124] [1] [ID:17] Execution failed in Test.testDataCSVRead with 1 failing test(s)
+==============================================================================
+Test
+==============================================================================
+Test.testDataCSVRead :: Test Suite for validate the login here
+==============================================================================
+Screenshot directory: C:\Amit_Tech\Education\VisualStudio_Workspace\Robot_Automation_Projects\RobotAutomationDemo\RobotAutomationDemoProject\pages/../screenshots
+Login with user 1234 and password 4321                                | PASS |
+------------------------------------------------------------------------------
+Login with user rahulshettyacademy and password Learning@830$3mK2     | FAIL |
+Element 'css:.alert-danger' not visible after 5 seconds.
+------------------------------------------------------------------------------
+Test.testDataCSVRead :: Test Suite for validate the login here        | FAIL |
+2 tests, 1 passed, 1 failed
+==============================================================================
+Test                                                                  | FAIL |
+2 tests, 1 passed, 1 failed
+==============================================================================
+Output:  C:\Amit_Tech\Education\VisualStudio_Workspace\Robot_Automation_Projects\RobotAutomationDemo\RobotAutomationDemoProject\results\pabot_results\17\output.xml
+[DEBUG]   2026-07-09 19:48:43.318865 [PID:22532] [1] [ID:19] EXECUTING Test.testSeleniumPractice
+[DEBUG]   2026-07-09 19:48:47.008879 [PID:20096] [0] [ID:18] still running Test.testSeleniumPractice after 15.0s
+[DEBUG]   2026-07-09 19:48:48.346928 [PID:22532] [1] [ID:19] still running Test.testSeleniumPractice after 5.0s
+[DEBUG]   2026-07-09 19:48:58.393979 [PID:22532] [1] [ID:19] still running Test.testSeleniumPractice after 15.0s
+[DEBUG]   2026-07-09 19:49:02.094272 [PID:20096] [0] [ID:18] still running Test.testSeleniumPractice after 30.0s
+[DEBUG]   2026-07-09 19:49:13.473661 [PID:22532] [1] [ID:19] still running Test.testSeleniumPractice after 30.0s
+[DEBUG]   2026-07-09 19:49:22.264846 [PID:20096] [0] [ID:18] still running Test.testSeleniumPractice after 50.0s
+[DEBUG]   2026-07-09 19:49:33.784032 [PID:22532] [1] [ID:19] still running Test.testSeleniumPractice after 50.0s
+[INFO]    2026-07-09 19:49:45.057166 [PID:20096] [0] [ID:18] PASSED Test.testSeleniumPractice in 73.1 seconds
+[DEBUG]   2026-07-09 19:49:45.073782 [PID:24464] [0] [ID:20] EXECUTING Test.testSeleniumPractice
+[DEBUG]   2026-07-09 19:49:50.128081 [PID:24464] [0] [ID:20] still running Test.testSeleniumPractice after 5.0s
+[INFO]    2026-07-09 19:49:50.430728 [PID:22532] [1] [ID:19] Execution failed in Test.testSeleniumPractice with 1 failing test(s)
+==============================================================================
+Test
+==============================================================================
+Test.testSeleniumPractice :: Test Suite for validate the login here
+==============================================================================
+Screenshot directory: C:\Amit_Tech\Education\VisualStudio_Workspace\Robot_Automation_Projects\RobotAutomationDemo\RobotAutomationDemoProject\pages/../screenshots
+Login with multiple test data user 1234 and password 4321             | PASS |
+------------------------------------------------------------------------------
+Login with multiple test data user rahulshettyacademy and password... | FAIL |
+Element 'css:.alert-danger' not visible after 20 seconds.
+------------------------------------------------------------------------------
+Test.testSeleniumPractice :: Test Suite for validate the login here   | FAIL |
+2 tests, 1 passed, 1 failed
+==============================================================================
+Test                                                                  | FAIL |
+2 tests, 1 passed, 1 failed
+==============================================================================
+Output:  C:\Amit_Tech\Education\VisualStudio_Workspace\Robot_Automation_Projects\RobotAutomationDemo\RobotAutomationDemoProject\results\pabot_results\19\output.xml
+[DEBUG]   2026-07-09 19:49:50.455876 [PID:33024] [1] [ID:21] EXECUTING Test.testSeleniumPractice
+[INFO]    2026-07-09 19:49:52.176406 [PID:33024] [1] [ID:21] PASSED Test.testSeleniumPractice in 1.7 seconds
+[DEBUG]   2026-07-09 19:49:52.201266 [PID:19324] [0] [ID:22] EXECUTING Test.testSeleniumPractice
+[DEBUG]   2026-07-09 19:49:57.292488 [PID:19324] [0] [ID:22] still running Test.testSeleniumPractice after 5.0s
+[DEBUG]   2026-07-09 19:50:00.365822 [PID:24464] [0] [ID:20] still running Test.testSeleniumPractice after 15.0s
+[DEBUG]   2026-07-09 19:50:07.615881 [PID:19324] [0] [ID:22] still running Test.testSeleniumPractice after 15.0s
+[DEBUG]   2026-07-09 19:50:15.726058 [PID:24464] [0] [ID:20] still running Test.testSeleniumPractice after 30.0s
+[DEBUG]   2026-07-09 19:50:23.015108 [PID:19324] [0] [ID:22] still running Test.testSeleniumPractice after 30.0s
+[DEBUG]   2026-07-09 19:50:36.351867 [PID:24464] [0] [ID:20] still running Test.testSeleniumPractice after 50.0s
+[DEBUG]   2026-07-09 19:50:43.516155 [PID:19324] [0] [ID:22] still running Test.testSeleniumPractice after 50.0s
+[DEBUG]   2026-07-09 19:51:01.866799 [PID:24464] [0] [ID:20] still running Test.testSeleniumPractice after 75.0s
+[DEBUG]   2026-07-09 19:51:09.121816 [PID:19324] [0] [ID:22] still running Test.testSeleniumPractice after 75.0s
+[DEBUG]   2026-07-09 19:51:32.514331 [PID:24464] [0] [ID:20] still running Test.testSeleniumPractice after 105.0s
+[DEBUG]   2026-07-09 19:51:39.848099 [PID:19324] [0] [ID:22] still running Test.testSeleniumPractice after 105.0s
+[INFO]    2026-07-09 19:51:46.840407 [PID:24464] [0] [ID:20] PASSED Test.testSeleniumPractice in 121.4 seconds
+[DEBUG]   2026-07-09 19:51:47.004630 [PID:19452] [1] [ID:23] EXECUTING Test.testSeleniumPractice
+[INFO]    2026-07-09 19:51:50.767447 [PID:19452] [1] [ID:23] PASSED Test.testSeleniumPractice in 3.8 seconds
+[DEBUG]   2026-07-09 19:51:50.792433 [PID:15032] [0] [ID:24] EXECUTING Test.testSeleniumPractice
+[INFO]    2026-07-09 19:51:51.963006 [PID:19324] [0] [ID:22] PASSED Test.testSeleniumPractice in 119.8 seconds
+[DEBUG]   2026-07-09 19:51:51.981121 [PID:20740] [1] [ID:25] EXECUTING Test.testSeleniumPractice
+[INFO]    2026-07-09 19:51:54.020232 [PID:20740] [1] [ID:25] PASSED Test.testSeleniumPractice in 2.0 seconds
+[DEBUG]   2026-07-09 19:51:55.829662 [PID:15032] [0] [ID:24] still running Test.testSeleniumPractice after 5.0s
+[DEBUG]   2026-07-09 19:52:05.933158 [PID:15032] [0] [ID:24] still running Test.testSeleniumPractice after 15.0s
+[DEBUG]   2026-07-09 19:52:21.105792 [PID:15032] [0] [ID:24] still running Test.testSeleniumPractice after 30.0s
+[DEBUG]   2026-07-09 19:52:41.377805 [PID:15032] [0] [ID:24] still running Test.testSeleniumPractice after 50.0s
+[INFO]    2026-07-09 19:52:55.676886 [PID:15032] [0] [ID:24] PASSED Test.testSeleniumPractice in 64.9 seconds
+[INFO]    21 tests, 18 passed, 3 failed, 0 skipped.
+[INFO]    ===================================================
+[INFO]    Output:  C:\Amit_Tech\Education\VisualStudio_Workspace\Robot_Automation_Projects\RobotAutomationDemo\RobotAutomationDemoProject\results\output.xml
+[INFO]    Log:     C:\Amit_Tech\Education\VisualStudio_Workspace\Robot_Automation_Projects\RobotAutomationDemo\RobotAutomationDemoProject\results\log.html
+[INFO]    Report:  C:\Amit_Tech\Education\VisualStudio_Workspace\Robot_Automation_Projects\RobotAutomationDemo\RobotAutomationDemoProject\results\report.html
+[DEBUG]   Finalizing Pabot execution...
+[DEBUG]   Stopping PabotLib process
+[INFO]    Robot Framework remote server at 127.0.0.1:8270 stopped.
+[DEBUG]   PabotLib process stopped
+[INFO]    Total testing: 12 minutes 16.60 seconds
+[INFO]    Elapsed time:  6 minutes 43.95 seconds
+[DEBUG]   Logs flushed successfully.

@@ -1,0 +1,18 @@
+2026-07-09 19:48:45.255219 ==============================================================================
+2026-07-09 19:48:45.299510 Test
+2026-07-09 19:48:45.299788 ==============================================================================
+2026-07-09 19:48:46.307352 Test.testSeleniumPractice :: Test Suite for validate the login here
+2026-07-09 19:48:46.336719 ==============================================================================
+2026-07-09 19:48:46.336813 Screenshot directory: C:\Amit_Tech\Education\VisualStudio_Workspace\Robot_Automation_Projects\RobotAutomationDemo\RobotAutomationDemoProject\pages/../screenshots
+2026-07-09 19:49:07.128244 Login with multiple test data user 1234 and password 4321             | PASS |
+2026-07-09 19:49:07.147953 ------------------------------------------------------------------------------
+2026-07-09 19:49:49.995659 Login with multiple test data user rahulshettyacademy and password... | FAIL |
+2026-07-09 19:49:50.033434 Element 'css:.alert-danger' not visible after 20 seconds.
+2026-07-09 19:49:50.033498 ------------------------------------------------------------------------------
+2026-07-09 19:49:50.033538 Test.testSeleniumPractice :: Test Suite for validate the login here   | FAIL |
+2026-07-09 19:49:50.035325 2 tests, 1 passed, 1 failed
+2026-07-09 19:49:50.035376 ==============================================================================
+2026-07-09 19:49:50.035411 Test                                                                  | FAIL |
+2026-07-09 19:49:50.036231 2 tests, 1 passed, 1 failed
+2026-07-09 19:49:50.036357 ==============================================================================
+2026-07-09 19:49:50.036410 Output:  C:\Amit_Tech\Education\VisualStudio_Workspace\Robot_Automation_Projects\RobotAutomationDemo\RobotAutomationDemoProject\results\pabot_results\19\output.xml

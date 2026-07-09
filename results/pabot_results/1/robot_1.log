@@ -1,0 +1,17 @@
+2026-07-09 19:46:16.495376 ==============================================================================
+2026-07-09 19:46:16.496301 Test
+2026-07-09 19:46:16.496347 ==============================================================================
+2026-07-09 19:46:16.994656 Test.testAuthentication :: Test Suite for validate the login here
+2026-07-09 19:46:16.994656 [ ERROR ] Error in file 'C:\Amit_Tech\Education\VisualStudio_Workspace\Robot_Automation_Projects\RobotAutomationDemo\RobotAutomationDemoProject\resources\resource.robot' on line 8: Setting 'Suite Setup' is not allowed in resource file.
+2026-07-09 19:46:17.009180 ==============================================================================
+2026-07-09 19:46:17.009180 [ ERROR ] Error in file 'C:\Amit_Tech\Education\VisualStudio_Workspace\Robot_Automation_Projects\RobotAutomationDemo\RobotAutomationDemoProject\resources\resource.robot' on line 9: Setting 'Test Teardown' is not allowed in resource file.
+2026-07-09 19:46:29.298957 Login user with invalid credential                                    Error: Authentication failed.
+2026-07-09 19:46:33.607936 | PASS |
+2026-07-09 19:46:33.645268 ------------------------------------------------------------------------------
+2026-07-09 19:46:33.645317 Test.testAuthentication :: Test Suite for validate the login here     | PASS |
+2026-07-09 19:46:33.646608 1 test, 1 passed, 0 failed
+2026-07-09 19:46:33.647941 ==============================================================================
+2026-07-09 19:46:33.648032 Test                                                                  | PASS |
+2026-07-09 19:46:33.648080 1 test, 1 passed, 0 failed
+2026-07-09 19:46:33.648122 ==============================================================================
+2026-07-09 19:46:33.648164 Output:  C:\Amit_Tech\Education\VisualStudio_Workspace\Robot_Automation_Projects\RobotAutomationDemo\RobotAutomationDemoProject\results\pabot_results\1\output.xml

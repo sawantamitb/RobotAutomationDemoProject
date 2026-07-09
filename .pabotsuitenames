@@ -1,0 +1,20 @@
+datasources:8ce6a181f993a09de5bba2405f4ad5ee21af8df0
+commandlineoptions:8677341958c7a2acfb7d4ddb85d9818cde21c7d4
+suitesfrom:no-suites-from-option
+file:ff4326f39f20595a1074407f103f243df51d79c5
+--test Test.testAuthentication.Login user with valid credential
+--test Test.testAuthentication.Login user with invalid credential
+--test Test.testCustomLibrary.Validate Cards display in the Shopping Page
+--test Test.testDataCSVRead.Login with user ${username} and password ${password}
+--test Test.testDataDriven.Invalid username
+--test Test.testDataDriven.Invalid password
+--test Test.testDataDriven.special characters
+--test Test.testDemo1.Login user with valid credential
+--test Test.testDemo1.Login user with invalid credential
+--test Test.testDemo2.Login user with valid credential
+--test Test.testDemo2.Login user with invalid credential
+--test Test.testSeleniumPractice.Login with multiple test data user ${username} and password ${password}
+--test Test.testSeleniumPractice.Validate Unsuccessful Login
+--test Test.testSeleniumPractice.End to end ecommerce Product validation
+--test Test.testSeleniumPractice.Select the Form and navigate to Child window
+--test Test.testWindowHandles.Validate Child window Functionality

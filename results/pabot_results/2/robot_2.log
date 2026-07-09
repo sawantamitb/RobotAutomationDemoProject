@@ -1,0 +1,19 @@
+2026-07-09 19:46:33.047835 ==============================================================================
+2026-07-09 19:46:33.074469 Test
+2026-07-09 19:46:33.074503 ==============================================================================
+2026-07-09 19:46:33.498606 Test.testCustomLibrary :: Test Suite for validate the login here
+2026-07-09 19:46:33.501335 ==============================================================================
+2026-07-09 19:46:33.501361 Screenshot directory: C:\Amit_Tech\Education\VisualStudio_Workspace\Robot_Automation_Projects\RobotAutomationDemo\RobotAutomationDemoProject\pages/../screenshots
+2026-07-09 19:46:44.335813 Validate Cards display in the Shopping Page                           iphone X
+2026-07-09 19:46:44.489346 Samsung Note 8
+2026-07-09 19:46:44.628645 Nokia Edge
+2026-07-09 19:46:44.924115 Blackberry
+2026-07-09 19:46:51.269345 | PASS |
+2026-07-09 19:46:51.272981 ------------------------------------------------------------------------------
+2026-07-09 19:46:51.272998 Test.testCustomLibrary :: Test Suite for validate the login here      | PASS |
+2026-07-09 19:46:51.273720 1 test, 1 passed, 0 failed
+2026-07-09 19:46:51.273738 ==============================================================================
+2026-07-09 19:46:51.273749 Test                                                                  | PASS |
+2026-07-09 19:46:51.274137 1 test, 1 passed, 0 failed
+2026-07-09 19:46:51.274163 ==============================================================================
+2026-07-09 19:46:51.274341 Output:  C:\Amit_Tech\Education\VisualStudio_Workspace\Robot_Automation_Projects\RobotAutomationDemo\RobotAutomationDemoProject\results\pabot_results\2\output.xml

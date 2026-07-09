@@ -1,0 +1,18 @@
+--suite Test.testDataCSVRead
+--variable BROWSER:firefox
+--variable DYNAMICTESTS:Test.testDataCSVRead.Invalid username|Test.testDataCSVRead.Invalid password|Test.testDataCSVRead.special characters
+--variable CALLER_ID:3689228e023d44c8b4a15d05adb7c73f
+--variable PABOTLIBURI:127.0.0.1:8270
+--variable PABOTEXECUTIONPOOLID:0
+--variable PABOTISLASTEXECUTIONINPOOL:0
+--variable PABOTNUMBEROFPROCESSES:2
+--variable PABOTQUEUEINDEX:16
+--variable PABOTLASTLEVEL:Test.testDataCSVRead.PABOT_noend
+--outputdir results\pabot_results\16
+--output output.xml
+--log NONE
+--report NONE
+--xunit NONE
+--consolecolors off
+--consolemarkers off
+test/

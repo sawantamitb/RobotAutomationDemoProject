@@ -10,7 +10,7 @@ Test Setup     Open The URL With The Login URL  ${URL}    ${BROWSER}
 Test Teardown  Close Browser
 Test Template   Validate Unsuccessful Login
 Default Tags    Positive
-Resource        ../resources/generic.robot
+Resource    ../pages/Generic.robot
 #Resource
 
 *** Variables ***

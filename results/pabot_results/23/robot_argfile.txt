@@ -1,0 +1,18 @@
+--suite Test.testSeleniumPractice
+--variable BROWSER:firefox
+--variable DYNAMICTESTS:Test.testSeleniumPractice.End to end ecommerce Product validation|Test.testSeleniumPractice.End to end ecommerce Product validation
+--variable CALLER_ID:9369f76f3b0a477c894f756a5638583b
+--variable PABOTLIBURI:127.0.0.1:8270
+--variable PABOTEXECUTIONPOOLID:1
+--variable PABOTISLASTEXECUTIONINPOOL:0
+--variable PABOTNUMBEROFPROCESSES:2
+--variable PABOTQUEUEINDEX:23
+--variable PABOTLASTLEVEL:
+--outputdir results\pabot_results\23
+--output output.xml
+--log NONE
+--report NONE
+--xunit NONE
+--consolecolors off
+--consolemarkers off
+test/

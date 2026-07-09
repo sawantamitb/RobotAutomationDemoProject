@@ -1,0 +1,19 @@
+==============================================================================
+Test
+==============================================================================
+Test.testCustomLibrary :: Test Suite for validate the login here
+==============================================================================
+Screenshot directory: C:\Amit_Tech\Education\VisualStudio_Workspace\Robot_Automation_Projects\RobotAutomationDemo\RobotAutomationDemoProject\pages/../screenshots
+Validate Cards display in the Shopping Page                           iphone X
+Samsung Note 8
+Nokia Edge
+Blackberry
+| PASS |
+------------------------------------------------------------------------------
+Test.testCustomLibrary :: Test Suite for validate the login here      | PASS |
+1 test, 1 passed, 0 failed
+==============================================================================
+Test                                                                  | PASS |
+1 test, 1 passed, 0 failed
+==============================================================================
+Output:  C:\Amit_Tech\Education\VisualStudio_Workspace\Robot_Automation_Projects\RobotAutomationDemo\RobotAutomationDemoProject\results\pabot_results\2\output.xml

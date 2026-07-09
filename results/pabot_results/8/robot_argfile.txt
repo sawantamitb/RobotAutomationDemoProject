@@ -1,0 +1,17 @@
+--test Test.testDemo1.Login user with invalid credential
+--variable BROWSER:firefox
+--variable CALLER_ID:ee919f1fe6fe411c829b384a038df440
+--variable PABOTLIBURI:127.0.0.1:8270
+--variable PABOTEXECUTIONPOOLID:0
+--variable PABOTISLASTEXECUTIONINPOOL:0
+--variable PABOTNUMBEROFPROCESSES:2
+--variable PABOTQUEUEINDEX:8
+--variable PABOTLASTLEVEL:Test.testDemo1
+--outputdir results\pabot_results\8
+--output output.xml
+--log NONE
+--report NONE
+--xunit NONE
+--consolecolors off
+--consolemarkers off
+test/

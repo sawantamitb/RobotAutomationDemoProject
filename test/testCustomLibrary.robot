@@ -4,14 +4,14 @@ Library         SeleniumLibrary
 Library         OperatingSystem
 Library         Collections
 Library         String
-Library         ../customlibrary/Shop.py
+Library         ../customlibraries/Shop.py
 
 Suite Setup     Initial Setup
 Test Setup      Open The URL With The Login URL  ${URL}    ${BROWSER}
 Test Teardown   Close Browser
 Default Tags    Positive
-Resource        ../resources/generic.robot
-#Resource
+Resource        ../pages/Generic.robot
+
 
 *** Variables ***
 ${ERROR_MESSAGE_LOGIN}     css:.alert-danger

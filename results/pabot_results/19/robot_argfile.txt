@@ -1,0 +1,18 @@
+--suite Test.testSeleniumPractice
+--variable BROWSER:firefox
+--variable DYNAMICTESTS:Test.testSeleniumPractice.Login with multiple test data user 1234 and password 4321|Test.testSeleniumPractice.Login with multiple test data user rahulshettyacademy and password Learning@830$3mK2
+--variable CALLER_ID:3476f3d6e01d4d6d84d9a5185f3b2f6a
+--variable PABOTLIBURI:127.0.0.1:8270
+--variable PABOTEXECUTIONPOOLID:1
+--variable PABOTISLASTEXECUTIONINPOOL:0
+--variable PABOTNUMBEROFPROCESSES:2
+--variable PABOTQUEUEINDEX:19
+--variable PABOTLASTLEVEL:
+--outputdir results\pabot_results\19
+--output output.xml
+--log NONE
+--report NONE
+--xunit NONE
+--consolecolors off
+--consolemarkers off
+test/

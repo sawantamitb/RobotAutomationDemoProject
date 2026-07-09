@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.4.2 (Python 3.14.3 on win32)" generated="2026-07-09T19:47:10.010780" rpa="false" schemaversion="5">
+<suite id="s1" name="Test" source="C:\Amit_Tech\Education\VisualStudio_Workspace\Robot_Automation_Projects\RobotAutomationDemo\RobotAutomationDemoProject\test">
+<suite id="s1-s1" name="testDemo1" source="C:\Amit_Tech\Education\VisualStudio_Workspace\Robot_Automation_Projects\RobotAutomationDemo\RobotAutomationDemoProject\test\testDemo1.robot">
+<test id="s1-s1-t1" name="Login user with invalid credential" line="17">
+<kw name="Open the URL with the login URL">
+<kw name="Create Webdriver" owner="SeleniumLibrary">
+<msg time="2026-07-09T19:47:10.360536" level="INFO">Creating an instance of the Firefox WebDriver.</msg>
+<arg>${browser}</arg>
+<doc>Creates an instance of Selenium WebDriver.</doc>
+<status status="PASS" start="2026-07-09T19:47:10.353253" elapsed="6.376355"/>
+</kw>
+<kw name="Go To" owner="SeleniumLibrary">
+<msg time="2026-07-09T19:47:16.730399" level="INFO">Opening url 'https://automationpractice.techwithjatin.com/'</msg>
+<arg>https://automationpractice.techwithjatin.com/</arg>
+<doc>Navigates the current browser window to the provided ``url``.</doc>
+<status status="PASS" start="2026-07-09T19:47:16.730067" elapsed="1.212338"/>
+</kw>
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2026-07-09T19:47:17.942800" elapsed="0.346190"/>
+</kw>
+<kw name="Click Link" owner="SeleniumLibrary">
+<msg time="2026-07-09T19:47:18.290441" level="INFO">Clicking link 'xpath://a[normalize-space()='Sign in']'.</msg>
+<arg>xpath://a[normalize-space()='Sign in']</arg>
+<doc>Clicks a link identified by ``locator``.</doc>
+<status status="PASS" start="2026-07-09T19:47:18.289432" elapsed="0.599571"/>
+</kw>
+<arg>Firefox</arg>
+<status status="PASS" start="2026-07-09T19:47:10.352572" elapsed="8.536690"/>
+</kw>
+<kw name="Fill Login Form">
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-07-09T19:47:18.891116" level="INFO">Typing text 'labisok230@hidevak.com' into text field 'id:email'.</msg>
+<arg>id:email</arg>
+<arg>${email}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-07-09T19:47:18.890433" elapsed="0.120532"/>
+</kw>
+<kw name="Input Text" owner="SeleniumLibrary">
+<msg time="2026-07-09T19:47:19.012079" level="INFO">Typing text 'Test@1234' into text field 'id:passwd'.</msg>
+<arg>id:passwd</arg>
+<arg>${password}</arg>
+<doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
+<status status="PASS" start="2026-07-09T19:47:19.011354" elapsed="0.189443"/>
+</kw>
+<kw name="Click Button" owner="SeleniumLibrary">
+<msg time="2026-07-09T19:47:19.201583" level="INFO">Clicking button 'id:SubmitLogin'.</msg>
+<arg>id:SubmitLogin</arg>
+<doc>Clicks the button identified by ``locator``.</doc>
+<status status="PASS" start="2026-07-09T19:47:19.201127" elapsed="0.668463"/>
+</kw>
+<arg>labisok230@hidevak.com</arg>
+<arg>Test@1234</arg>
+<status status="PASS" start="2026-07-09T19:47:18.889702" elapsed="0.980160"/>
+</kw>
+<kw name="Validate Invalid Login">
+<kw name="Wait Until Element Is Visible" owner="SeleniumLibrary">
+<arg>${INVALID_ERROR_MESSAGE}</arg>
+<doc>Waits until the element ``locator`` is visible.</doc>
+<status status="PASS" start="2026-07-09T19:47:19.870923" elapsed="0.030372"/>
+</kw>
+<kw name="Get Text" owner="SeleniumLibrary">
+<msg time="2026-07-09T19:47:19.930148" level="INFO">${error} = Authentication failed.</msg>
+<var>${error}</var>
+<arg>${INVALID_ERROR_MESSAGE}</arg>
+<doc>Returns the text value of the element identified by ``locator``.</doc>
+<status status="PASS" start="2026-07-09T19:47:19.901724" elapsed="0.028542"/>
+</kw>
+<kw name="Should Be Equal As Strings" owner="BuiltIn">
+<arg>${error}</arg>
+<arg>Authentication failed.</arg>
+<doc>Fails if objects are unequal after converting them to strings.</doc>
+<status status="PASS" start="2026-07-09T19:47:19.930684" elapsed="0.001116"/>
+</kw>
+<kw name="Element Text Should Be" owner="SeleniumLibrary">
+<msg time="2026-07-09T19:47:19.932731" level="INFO">Verifying element 'xpath://li[normalize-space()='Authentication failed.']' contains exact text 'Authentication failed.'.</msg>
+<arg>${INVALID_ERROR_MESSAGE}</arg>
+<arg>Authentication failed.</arg>
+<doc>Verifies that element ``locator`` contains exact the text ``expected``.</doc>
+<status status="PASS" start="2026-07-09T19:47:19.932135" elapsed="0.052423"/>
+</kw>
+<kw name="Log To Console" owner="BuiltIn">
+<arg>Error: ${error}</arg>
+<doc>Logs the given message to the console.</doc>
+<status status="PASS" start="2026-07-09T19:47:19.984961" elapsed="0.001023"/>
+</kw>
+<status status="PASS" start="2026-07-09T19:47:19.870313" elapsed="0.115905"/>
+</kw>
+<kw name="Close Browser" owner="SeleniumLibrary" type="TEARDOWN">
+<doc>Closes the current browser.</doc>
+<status status="PASS" start="2026-07-09T19:47:19.987171" elapsed="3.421825"/>
+</kw>
+<tag>Positive</tag>
+<status status="PASS" start="2026-07-09T19:47:10.351917" elapsed="13.057229"/>
+</test>
+<doc>Test Suite for validate the login here</doc>
+<status status="PASS" start="2026-07-09T19:47:10.048539" elapsed="13.361341"/>
+</suite>
+<status status="PASS" start="2026-07-09T19:47:10.012307" elapsed="13.398215"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="1" fail="0" skip="0">Positive</stat>
+</tag>
+<suite>
+<stat name="Test" id="s1" pass="1" fail="0" skip="0">Test</stat>
+<stat name="testDemo1" id="s1-s1" pass="1" fail="0" skip="0">Test.testDemo1</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

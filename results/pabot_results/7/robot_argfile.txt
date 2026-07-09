@@ -1,0 +1,17 @@
+--test Test.testDemo1.Login user with valid credential
+--variable BROWSER:firefox
+--variable CALLER_ID:a1e6b27c06504670b5c1a5829e2b062c
+--variable PABOTLIBURI:127.0.0.1:8270
+--variable PABOTEXECUTIONPOOLID:1
+--variable PABOTISLASTEXECUTIONINPOOL:0
+--variable PABOTNUMBEROFPROCESSES:2
+--variable PABOTQUEUEINDEX:7
+--variable PABOTLASTLEVEL:Test.testDemo1.Login user with valid credential
+--outputdir results\pabot_results\7
+--output output.xml
+--log NONE
+--report NONE
+--xunit NONE
+--consolecolors off
+--consolemarkers off
+test/
